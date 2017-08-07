@@ -1,0 +1,419 @@
+<?php
+
+?>
+<td valign="top">
+<div id="marginal"> 
+
+<!-- quicklinks-section -->                                                  
+<?php if ($component_active['right_section']['quicklinks']=='yes'){ ?>
+	<!-- Add 1 -->
+	<div id="quicklinks" style="margin-left:8px;">
+		<div class="plainBox-top">
+			<div style="font-size:1.5em;font-weight:bold;margin-left:35px;padding-top:6px;"><?php echo $lang['quicklinks'];?>
+			</div>
+		</div>
+		<div class="plainBox-cnt">
+			<div class="plainBox-cnt-top">
+				<div class="plainBox-cnt-bot">
+					<br>
+					<ul class="none">
+						<li><a href="index.php?n=account&sub=register"><img src="<?php echo $config['template_href'];?>images/acc_creation.jpg"><?php echo $lang['quicklink1']; ?></a></li>
+						<li><a href="index.php?n=account&sub=manage"><img src="<?php echo $config['template_href'];?>images/acct_management.jpg"><?php echo $lang['quicklink2']; ?></a></li>
+						<li><a href="index.php?n=server&sub=realmstatus"><img src="<?php echo $config['template_href'];?>images/realmstatus.jpg"><?php echo $lang['quicklink3']; ?></a></li> 
+						<li><a href="index.php?n=forum&sub=viewforum&fid=<?php echo $site_spesific_config[forum][ql4_forum_id]; ?>"><img src="<?php echo $config['template_href'];?>images/faq.jpg"><?php echo $lang['quicklink4']; ?></a></li>
+						<li><a href="index.php?n=server&sub=howtoplay"><img src="<?php echo $config['template_href'];?>images/support.jpg"><?php echo $lang['howtoplay']; ?></a></li>
+						<!-- talents?
+						<li>
+						<?php $link = "components/talents/index.php?1=".$lang['talent_index']."&2=".$lang['talent_summary']."&3=".$lang['talent_print']."&4=".$lang['talent_import'];
+						echo "<a href=\"javascript:window.open ('$link', 'talents', 'Toolbar=0, Location=0, Directories=0, Status=0, Menubar=0, Scrollbar=0, Resizable=0, Copyhistory=1, Width=370, Height=600')\">"; ?> <img src="<?php echo $config['template_href'];?>images/tipday.jpg"><?php echo $lang['quicklink6'];?></a></li>
+						-->
+						<li><a href="index.php?n=server&sub=commands"><img src="<?php echo $config['template_href'];?>images/tipday.jpg"><?php echo $lang['quicklink7']; ?></a></li>                                              
+						<li><a href="index.php?n=server&sub=playermap"><img src="<?php echo $config['template_href'];?>images/tipday.jpg"><?php echo $lang['quicklink8']; ?></a></li>                                                             
+						<!--<li><a href="http://www.warcraft.com/"><img src="<?php echo $config['template_href'];?>images/download.jpg">Free 10-Day WoW Trial</a></li>-->
+					</ul>
+					<br>
+				</div>
+			</div>
+		</div>
+		<div class="plainBox-bot"></div>
+    </div>
+<?php } ?>
+</div> <!-- Terminate Quick Link Marginal Style -->
+
+
+<!-- media screenshot -->
+<?php  if ($component_active['right_section']['media'] == 'yes'){ ?>
+<!-- Add 3 -->
+	<div id=gameinfo-screenshototd-container style="float:right;margin-right:4pt;margin-left:6px;">
+		<div class="marginal-infoBox-top">
+			<h3>
+				<span>Screen Of The Day</span>
+			</h3>
+			<span class="infoBox-visual ssotd"></span>
+		</div>
+		<div class="marginal-infoBox">
+			<div class="marginal-infoBox-cnt">
+				<?php
+				require("config.php");
+				error_reporting(E_ERROR);
+				
+				$connection = mysql_connect($realmd['db_host'].':'.$realmd['db_port'], $realmd['db_username'], $realmd['db_password']) or die("No connection to the database!");
+				mysql_select_db($realmd['db_name'], $connection);
+				$sql = "SELECT * FROM gallery WHERE cat='screenshot'";
+				$result = mysql_query($sql, $connection);
+				$number =  mysql_num_rows($result);
+				
+				//$number = $DB->selectCell("SELECT count(*) FROM gallery WHERE cat='screenshot'");
+				
+				if ($number == 0){
+					echo "No Screenshots in database";
+				}
+				else
+				{
+					$sql = "SELECT * FROM gallery WHERE cat ='screenshot'";
+					$result = mysql_query($sql, $connection);
+					$i= 0;
+					while ($line = mysql_fetch_array($result, MYSQL_ASSOC))
+					{
+						$id[$i] = $line['id'];
+						$fname[$i] = $line['img'];
+						$i++;
+					}
+					$rnd_id = rand(1,$number)-1;?>
+					<a href="./images/screenshots/<?php echo $fname[$rnd_id]; ?>" target="_blank"><img src="./images/screenshots/<?php echo $fname[$rnd_id]; ?>"  height=145 width=195></a>
+		  <?php } ?>
+			</div>
+		</div>
+		<div class="marginal-infoBox-bottom"></div>
+	</div>
+<?php } ?>
+
+<!-- newcomers section -->
+<?php if ($component_active['right_section']['newbguide']=='yes'){ ?>
+<!-- Add 6 -->
+  <div id="gameinfo-newcomers-container" style="float:right;margin-right:4pt;margin-left:6px;">
+	<div class="marginal-infoBox-top">
+		<h3>
+		  <span>Newcomers Section</span>
+		</h3>
+		<span class="infoBox-visual newbieguide"></span>
+	</div>
+	<div class="marginal-infoBox">
+	  <div class="marginal-infoBox-cnt">
+		<div style="background: url(./templates/offlike/images/marginal-infoBox-cnt-banner.jpg) no-repeat 0 0; height: 0px;">
+			<h4><span>Discover World of Warcraft</span></h4>
+		</div>
+		<div class="parchment">
+		  <div class="parchment-top">
+			<div class="parchment-bot">
+			  <div class="gameinfo-entry firstEntry">
+				<img class="left" src="./templates/offlike/images/image-retailbox.gif" style="padding-left: 5px;">
+				<p>Looking to download World of Warcraft? Then use the link<br>below!<br><br></p>
+				<div class="gameinfo-entry secondEntry">
+				  <ul class="link-list">		
+					<li><a href="http://www.worldofwarcraft.com/downloads/files/pc/wowclient-downloader.exe">World of Warcraft</a></li>
+					<li><br></li>
+					<li><br></li>
+				  </ul>
+				  <div id="elf-ear"><img src="./templates/offlike/images/elf-ear.gif"></div>
+				</div>
+			  </div>
+			  <hr>
+			  <div class="parchment-subHeader secondSubHeadline" >
+				<h4 class="begin-journey">
+				  <span>Begin Your Journey</span>
+				</h4>
+			  </div>
+			  <div class="gameinfo-entry thirdEntry"><img class="left" src="./templates/offlike/images/bg-journey-human.gif"><img class="tpng" src="./templates/offlike/images/journey-human.gif" style="position: absolute; top: -15px; right: 130px; _right: 130px;">
+				<p><b>Connecting to the Server?</b><br>Find how to do it in the <a href="index.php?n=forum">Forum</a>!</p>
+				<div class="opera-break"></div>
+				<script language="javascript">if(is_mac) document.getElementById("elf-ear").style.top="-19px";</script>			
+			  </div>
+			  <div style="clear: both; height: 1px; font-size: 0;">&nbsp;</div>
+			</div>
+		  </div>
+		</div>
+		<div style="background: url(./templates/offlike/images/marginal-infoBox-cnt-bottompaper.jpg) no-repeat 0 0; font-size: 1px;"></div>
+	  </div>
+	</div>
+	<div class="marginal-infoBox-bottom"></div>
+  </div>
+<?php } ?>    
+
+<div id="marginal"> 
+<!-- server information -->
+<?php if ($component_active['right_section']['server_information']=='yes'){ ?>
+	<!-- Add 4 -->
+	<div id="quicklinks" style="margin-left:8px;">
+    <div class="plainBox-top">
+    <div style="font-size:1.5em;font-weight:bold;margin-left:35px;padding-top:6px;">
+    <?php echo $lang['serverinfo'];?>
+    </div>
+    </div>
+    <div class="plainBox-cnt">
+    <div class="plainBox-cnt-top">
+    <div class="plainBox-cnt-bot">
+    <br>
+    <ul class="none">
+    <li></br><?php echo $lang['si_status']; ?>: 
+
+
+	<?php
+	require("config.php");
+	error_reporting(E_ERROR);
+
+	function population_view($n)
+	{
+    	$low=100; $medium=200; $high=300;
+    	if($n < $low){return '<font color="green">Low</font>';}
+    	elseif($n >= $low && $n < $medium){return '<font color="orange">Medium</font>';}
+    	elseif($n >= $high){return '<font color="red">High</font>';}
+	}
+
+	$realm_type_def = array(
+    	0 => 'Normal',
+    	1 => 'PVP',
+    	4 => 'Normal',
+    	6 => 'RP',
+    	8 => 'RPPVP'
+	);
+	$realm_timezone_def = array(
+    	1 => 'English',
+    	2 => 'Deutsch',
+    	3 => 'French',
+    	4 => 'Others'
+	);
+
+	function check_port_status($ip, $port)
+	{
+		$fp1=fsockopen($ip, $port, $ERROR_NO, $ERROR_STR,(float)1.0);
+    	if($fp1){
+			fclose($fp);
+        	return true;
+    	}else{
+			fclose($fp);
+        	return false;
+    	}	
+	}
+	
+	$connection = mysql_connect($realmd['db_host'].':'.$realmd['db_port'], $realmd['db_username'], $realmd['db_password'])
+  		or die("No connection to the database!");
+
+	mysql_select_db($realmd['db_name'], $connection);
+
+
+	$sql = "SELECT address, port, timezone, icon FROM realmlist WHERE id = ".$site_spesific_config[realm_info][default_realm_id];
+	$result = mysql_query($sql, $connection);
+
+
+// set $serverip, $timezone and $realmtype	
+	while($zeile = mysql_fetch_array($result))
+    {
+        $serverip = $zeile['address']; // the ip adress of the server
+        if(check_port_status($zeile['address'], $zeile['port'])===true)
+        {
+            echo "<img src=\"./templates/offlike/images/online.gif\">Online";
+        	$population_str = population_view($population);
+        }else{
+			echo "<img src=\"./templates/offlike/images/offline.gif\">Down";
+        	$population_str = 'n/a';
+     	}
+     $timezone = $realm_timezone_def[$zeile['timezone']]; // the timezone
+     $realm_type = $realm_type_def[$zeile['icon']]; // the realm type
+     }
+
+
+
+
+/*
+	while($zeile = mysql_fetch_array($result3))
+	{
+    	$chars = $zeile['count(*)'];
+	}
+*/
+	$accounts = 0; // number of accounts on server
+	$sql = "SELECT count(*) FROM `account`";
+	$result = mysql_query($sql, $connection);
+
+	while($zeile = mysql_fetch_array($result))
+	{
+    	$accounts = $zeile['count(*)'];
+	}
+
+#	while($zeile = mysql_fetch_array($result2))
+#	{
+#    	$population = $zeile['count(*)'];
+#	}
+
+#	while($zeile = mysql_fetch_array($result))
+#	{
+#    	$serverip = $zeile['address'];
+#    	if(check_port_status($zeile['address'], $zeile['port'])===true)
+#        {
+#            echo "<img src=\"./templates/offlike/images/online.gif\">Online";
+#        	$population_str = population_view($population);
+#        }else{
+#        	echo "<img src=\"./templates/offlike/images/offline.gif\">Down";
+#        	$population_str = 'n/a';
+#        }
+#    $timezone = $realm_timezone_def[$zeile['timezone']];
+#    $realm_type = $realm_type_def[$zeile['icon']];
+#	}
+	mysql_close($connection);
+
+	$connection = mysql_connect($characters['db_host'].':'.$characters['db_port'], $characters['db_username'], $characters['db_password'])
+  		or die("No connection to the database!");
+
+	mysql_select_db($characters['db_name'], $connection);
+     
+#	$sql = "SELECT address, port, timezone, icon FROM realmlist";
+#	$result = mysql_query($sql, $connection2);
+
+	$sql = "SELECT count(*) FROM `characters` WHERE online=1";
+	$result = mysql_query($sql, $connection);
+	$population = 0;
+    while($zeile = mysql_fetch_array($result))
+    {
+        $population = $zeile['count(*)'];
+    }
+
+	$sql = "SELECT count(*) FROM `characters`";
+	$result = mysql_query($sql, $connection);
+
+	while($zeile = mysql_fetch_array($result))
+	{
+    	$chars = $zeile['count(*)'];
+	}
+
+#	while($zeile = mysql_fetch_array($result4))
+#	{
+#    	$accounts = $zeile['count(*)'];
+#	}
+
+#	while($zeile = mysql_fetch_array($result2))
+#	{
+#    	$population = $zeile['count(*)'];
+#	}
+
+#	while($zeile = mysql_fetch_array($result))
+#	{
+#    	$serverip = $zeile['address'];
+#    	if(check_port_status($zeile['address'], $zeile['port'])===true)
+#        {
+#            echo "<img src=\"./templates/offlike/images/online.gif\">Online";
+#        	$population_str = population_view($population);
+#        }else{
+#            echo "<img src=\"./templates/offlike/images/offline.gif\">Down";
+#          	$population_str = 'n/a';
+#        }
+#    	$timezone = $realm_timezone_def[$zeile['timezone']];
+#    	$realm_type = $realm_type_def[$zeile['icon']];
+#	}
+	mysql_close($connection);
+	?>
+	</br></br></li>
+	
+	<li><?php echo $lang['si_ip']; ?>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $serverip;?></li>
+	<li><?php echo $lang['si_type']; ?>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $realm_type;?></li>
+	<li><?php echo $lang['si_lang']; ?>:&nbsp;&nbsp;&nbsp;<?php echo $timezone; ?></li>
+	<li><?php echo $lang['si_pop']; ?>:&nbsp;&nbsp;&nbsp;<?php echo $population_str;?></li>
+	<li><?php echo $lang['si_acc']; ?>:&nbsp;&nbsp;&nbsp;<?php echo $accounts;?></li>
+	<li><?php echo $lang['si_chars']; ?>: <?php echo $chars;?></li>
+	<li><?php echo $lang['si_on']; ?>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php
+	if ($population != 0)
+	{
+		echo "<a href=\"index.php?n=server&sub=playersonline&realm=1\">$population</a>";
+		echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+		echo "<a href=\"index.php?n=server&sub=playermap\">Player Map</a>";
+	}
+	else echo $population;
+	?>
+	</li>
+	</br>
+		<?php
+			require("config.php");
+			error_reporting(E_ERROR);
+			$connection = mysql_connect($realmd['db_host'].':'.$realmd['db_port'], $realmd['db_username'], $realmd['db_password'])or die("No connection to the database!");
+			mysql_select_db($realmd['db_name'], $connection);
+			$hp = "SELECT count(*) FROM `online`";
+			$result = mysql_query($hp, $connection);
+			## $population1 = 0;
+			while($zeile = mysql_fetch_array($result))
+			{
+				$hp = $zeile['count(*)'];
+			}
+			mysql_close($connection);
+		?>
+	<li>&nbsp;<a href="index.php?n=whoisonline">
+		<?php echo $hp;?>&nbsp;<b></a><?php echo $lang['user'];?>
+		<b><?php if($hp == 1)echo $lang['isonline'];else echo $lang['areonline']; ?></b>
+	</li>
+<!-- server rates -->
+<?php if ($component_active['right_section']['server_rates']=='yes'){ ?>
+	<!-- Add 5 -->	
+	<li>
+	<pre>
+<?php echo $lang['si_regrate']; ?>:
+
+<?php echo $lang['si_regrate_health']; ?> = <?php echo $server_rates['regeneration']['health'];?> x Blizzlike
+<?php echo $lang['si_regrate_mana']; ?>   = <?php echo $server_rates['regeneration']['mana'];?> x Blizzlike
+	</pre>
+	</li>
+	<li>
+	<pre>
+<?php echo $lang['si_droprate']; ?>:
+
+<?php echo $lang['si_droprate_items']; ?> = <?php echo $server_rates['rates']['Item_drop'];?> x Blizzlike
+<?php echo $lang['si_droprate_money']; ?> = <?php echo $server_rates['rates']['Money_drop'];?> x Blizzlike
+	</pre>
+	</li>
+	<li>
+	<pre>
+<?php echo $lang['si_exprate']; ?>:
+
+<?php echo $lang['si_exprate_kill']; ?>    = <?php echo $server_rates['rates']['Experiance_kill'];?> x Blizzlike
+<?php echo $lang['si_exprate_quest']; ?>   = <?php echo $server_rates['rates']['Experiance_quest'];?> x Blizzlike
+<?php echo $lang['si_exprate_explore']; ?> = <?php echo $server_rates['rates']['Experiance_explore'];?> x Blizzlike
+	</pre>
+	</li>
+	<li>
+	<pre>
+<?php echo $lang['si_restrate']; ?>:
+
+<?php echo $lang['si_restrate_city']; ?> 
+	= <?php echo $server_rates['resting_points']['Restingpoints_cityoftavern'];?> x Blizzlike
+<?php echo $lang['si_restrate_ingame']; ?> 
+	= <?php echo $server_rates['resting_points']['Restingpoints_ingame'];?> x Blizzlike
+<?php echo $lang['si_restrate_wild']; ?> 
+	= <?php echo $server_rates['resting_points']['Restingpoints_inwilderness'];?> x Blizzlike
+	</pre>
+	</li>
+    </ul>
+    <br>
+    </div>
+    </div>
+    </div>
+    <div class="plainBox-bot"></div>
+    </div> 
+<?php }else{ ?>
+<br>
+    </div>
+    </div>
+    </div>
+    <div class="plainBox-bot"></div>
+
+<?php } ?>
+
+</div> <!-- #marginal end -->
+
+<!--
+<div style="width: 213px; margin-left: auto; margin-right: auto; margin-top:0px; margin-bottom:0px;">
+<a href="http://www.worldofwarcraft.com/burningcrusade/"><img src="<?php echo $config['template_href'];?>images/button_wowxnew.jpg" width="213" height="91" border="0"></a>
+</div>
+<div style="width: 213px; margin-left: auto; margin-right: auto; margin-top:0px; margin-bottom:8px;">
+<a href="http://www.worldofwarcraft.com/account/recruit-a-friend.html?"><img src="<?php echo $config['template_href'];?>images/button_raf.gif" width="213" height="91" border="0"></a>
+</div>
+-->
+<?php } ?>
+</td>

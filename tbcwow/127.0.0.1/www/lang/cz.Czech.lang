@@ -1,0 +1,453 @@
+|=|charcreate_invalidname :=: Error, Name unvalid (You have to pick a name for your character). Try again. <br />Redicting.. Please wait.
+|=|charcreate_nameinuse :=: Error, Name unvalid (Name already in use). Try again. <br />Redirecting.. Please wait.
+|=|charcreate_loggedin :=: Error, your account is already logged in. Please log out before using this future.<br />Redicting.. Please wait.
+|=|charcreate_charcreated :=: <h1>Congratulations</h1>, your character was created. You can now log in and play on it. Enjoy.<br />Redirecting...</td></tr></table>
+|=|charcreate_nameissymbols :=: The name consists of characters that is not allowed.<br />Redicting...
+|=|charcreate_underconstruction :=: This Class and race is currently beeing worked on, expect it to be up as soon as possible<br />Redicting...
+|=|charcreate_tomanychars :=: You have to many characters on your account, please log in and delete a character to be able to create another one at the account management.
+|=|charcreate_cannotcreatemorechars :=: You can not create anymore characters!
+|=|module_ah :=: Auction House
+|=|ah_itemclass :=: Type
+|=|ah_itemname :=: Item
+|=|ah_quantity :=: Qty.
+|=|ah_seller :=: Seller
+|=|ah_time :=: Time
+|=|ah_buyer :=: Buyer
+|=|ah_currentbid :=: Current Bid
+|=|ah_buyout :=: Buyout Price
+|=|ah_auctionhouse :=: Auction House
+|=|ah_reset :=: (reset)
+|=|ah_hours :=: h
+|=|ah_minutes :=: m
+|=|ah_seconds :=: s
+|=|ah_expired :=: Expired
+|=|ah_sortbyquality :=: (sort by quality)
+|=|reset_succ_secretq :=: You just reset your secret questions. Please note that its recomended to have secret questions to your account.
+|=|not_require_loggedin :=: You need to be logged out to use this function.
+|=|require_loggedin :=: You need to be logged in to use this function.
+|=|intro_account_restore :=: You forgot your password!? When we said "keep it secret, keep it safe" we didnt mean for you to take it this far. For future reference, forgetting your password completely is just a bit too secret to be practical. Well, no worries. Well try to get it back for you. Start by entering your Account Name into the box below. If youve forgotten your Account Name as well, contact us by the forums or in PM. Please note that you have to know your 2 account secret questions.
+|=|restore_pass_ok :=: Your details has been changed please look below to see your new password. Its recomended to change the password fast!
+|=|fail_restore_pass :=: Your details on password restore was not correct.
+|=|have_secretq :=: <font color='green'>Your recovery questions is SET!</font>
+|=|not_have_secretq :=: <font color='red'>You dont got secret questions, its reccomanded to set so you can recover your account!</font>
+|=|fail_change_secretq :=: The secret questions was not changed. Please read the information on how secret questions needs to be formed.
+|=|changed_secretq :=: You sucesfully changed your secret questions. Please remember them in-case you loose your password.
+|=|secretq1_info :=: Requirements for adding secret questions: <ul><li>Answer must be 4 character or more</li><li>Answer must not contain symbols</li><li>You must fil both answer and question fields</li></ul>
+|=|secretq2_info :=: Requirements for adding secret questions: <ul><li>Answer must be 4 character or more</li><li>Answer must not contain symbols</li><li>You must fil both answer and question fields</li></ul>|=|secretq2 :=: Secret Question 2
+|=|secretq1 :=: Secret Question 1
+|=|agreeement_detailschange :=: You agree that you are the owner of this account.
+|=|accountmanage_important :=: Password and E-mail settings.
+|=|accountmanange_intro :=: Welcome to account management here you can edit all your settings.
+|=|START_NEW_PROJECT :=: START NEW PROJECT. This is just a dummy.
+|=|yes :=: Ye
+|=|no :=: Ne
+|=|mainpage :=: Hlavní
+|=|news :=: Novinky
+|=|news_archive :=: Archiv novinek
+|=|last_news :=: Poslední novinky
+|=|account_create :=: Vytvoøit account
+|=|account_activate :=: Aktivovat account
+|=|account :=: Account
+|=|account_manage :=: Mùj account
+|=|userlist :=: Seznam userù
+|=|realm_status :=: Stav Realmu
+|=|retrieve_pass :=: Zapomenuté heslo
+|=|contact :=: Kontakty
+|=|honor :=: Honor
+|=|map :=: Mapa
+|=|players_online :=: Online Hráèi
+|=|bugs :=: Bug tracker
+|=|files :=: Soubory
+|=|bugtracker :=: Hlášení o bugách
+|=|static_docs :=: Statistické dokumenty
+|=|forums :=: Forum
+|=|forums_support :=: Forum - podpora
+|=|gmlist :=: In-Game podpora
+|=|activation :=: Aktivace
+|=|forbiden :=: Zakázáno
+|=|admin_panel :=: Admin panel
+|=|dochange :=: Zmìnit
+|=|dodelete :=: Smazat
+|=|doedit :=: Editovat
+|=|doreset :=: Reset
+|=|doupdate :=: Aktualizovat
+|=|docreate :=: Vytvoøit
+|=|youhavenorights :=: Nemáte práva zobrazovat tuto stránku !
+|=|pagegenerated :=:  Stránka vygenerovaná v
+|=|forgetpass :=: Zapomenuté heslo ?
+|=|register :=: Registrovat
+|=|login :=: Pøihlasít
+|=|logout :=: Odhlásit
+|=|profile :=: Profil
+|=|enter_as :=: Pøihlášen jako
+|=|newpms :=: Nová zpráva
+|=|username :=: Username
+|=|pass :=: Heslo
+|=|email :=: Email
+|=|select_name :=: Vybrat jméno
+|=|up :=: Nahoru
+|=|down :=: Dolù
+|=|author :=: Autor
+|=|type :=: Typ
+|=|title :=: Nadpis
+|=|text :=: Text
+|=|add :=: Pøidat
+|=|back :=: Zpìt
+|=|time :=: Èas
+|=|posted :=: Vloeno
+|=|close :=: Zavøít
+|=|open :=: Otevøit
+|=|edit :=: Editovat
+|=|delete :=: Smazat
+|=|format :=: Formát
+|=|size :=: Velikost
+|=|download :=: Stáhnout
+|=|upload :=: Uploadnout
+|=|file :=: Soubor
+|=|characters :=: Postavy
+|=|items :=: Itemy
+|=|editor_bold :=: Tuènì
+|=|editor_italic :=: Kurzivì
+|=|editor_underline :=: Podtreno
+|=|editor_strikethrough :=: Pøeškrtnutı
+|=|editor_pagebreak :=: Horizontíální
+|=|editor_image :=: Obrázek
+|=|editor_link :=: Odkaz
+|=|editor_email :=: Email
+|=|editor_fontcolor :=: Barva textu
+|=|editor_code :=: Kód
+|=|editor_quote :=: Citace
+|=|editor_jusleft :=: Zarovnat doleva
+|=|editor_juscenter :=: Zarovnat doprostøed
+|=|editor_jusright :=: Zarovnat doprava
+|=|editor_preview :=: Náhled
+|=|editor_clear :=: Smazat
+|=|editor_backtoedit :=: Zpìt k editaci
+|=|editor_send :=: Odeslat
+|=|uploaddblclk :=: Dvakrát kliknìte pro vloení
+|=|site_config :=: Nastavení site
+|=|realms_manage :=: Realmy
+|=|components_manage :=: Komponenty 
+|=|users_manage :=: Uivatelé
+|=|regkeys_manage :=: Registraèní klíèe
+|=|forums_manage :=: Forums
+|=|langs_manage :=: Jazyk
+|=|news_manage :=: Editovat Novinky
+|=|commands_manage :=: Editovat (InGame) pøíkazy
+|=|chat_manage :=: Konfigurovat chat
+|=|categories :=: Kategorie
+|=|order :=: seøadit
+|=|recount :=: znovu spoèítat topicy/pøíspìvky
+|=|hide :=: Schovat
+|=|show :=: Ukázat
+|=|l_name :=: Jméno
+|=|l_desc :=: Popis
+|=|donewforum :=: Vytvoøit nové fórum
+|=|donewcat :=: Vytvoøit novou kategoriji
+|=|l_newkeys :=: Vloit èíslo klíèe (1-300) 
+|=|l_delkey :=: Smazat klíè
+|=|l_delkey_id :=: podle ID
+|=|l_delkey_name :=: nebo podle Klíèe
+|=|editing :=: Editace
+|=|sure_q :=: Jste si jistı ?
+|=|change_pass_succ :=: Zmìnìní hesla probìhlo v poøádku.
+|=|doretrieve_pass :=: vrátit heslo 
+|=|retrieve_pass_succ :=: Heslo bylo posláno na váš email.
+|=|retrieve_pass_fail :=: Špatnı account/email.
+|=|email_retrieve_pass :=: Toto je vaše heslo: %s | Prosím, neztrate ho.
+|=|post_pages :=: Stránky
+|=|all :=: Vše
+|=|user_name :=: Uivatelské jméno
+|=|personal_message :=: Privatní zprávy
+|=|pers_mess :=: PM
+|=|date_reg :=: Datum registrace 
+|=|viewedit_profile :=: Ukázat/Editovat profil
+|=|homepage :=: WWW
+|=|active_ban :=: Aktivní/Ban
+|=|max_accounts_per_ip :=: Maximální poèet account na IP (0-unlimited)
+|=|posts_per_page :=: Pøíspìvky na stránku (forum)
+|=|topics_per_page :=: Topici na stránku (forum)
+|=|users_per_page :=: Uivatelé na stránku
+|=|posts_per_star1 :=: Minimální poèet topicù pro 1 rank
+|=|posts_per_star2 :=: Minimální poèet topicù pro 2 rank
+|=|posts_per_star3 :=: Minimální poèet topicù pro 3 rank
+|=|posts_per_star4 :=: Minimální poèet topicù pro 4 rank
+|=|posts_per_star5 :=: Minimální poèet topicù pro 5 rank
+|=|site_title :=: Nadpis sítì
+|=|site_encoding :=: Kódování stránky
+|=|site_cookie :=: Jméno site cookies
+|=|site_email :=: Site email addresa ("Od")
+|=|smtp_adress :=: smtp server
+|=|smtp_username :=: smtp server - login
+|=|smtp_password :=: smtp server - heslo
+|=|max_avatar_size :=: Maximální rozlišení avataru (WxH px)
+|=|max_avatar_file :=: Maximální velikost avataru (byte)
+|=|change_email :=: Zmìnit Email
+|=|change_pass :=: Zmìnit heslo
+|=|change_template :=: Povolit uivatelùm mìnìní template (1-ano/0-ne)
+|=|req_reg_key :=: Poadován klíè pro registraci (1-ano/0-ne)
+|=|req_reg_act :=: Poadována aktivace accountu emailem (1-ano/0-ne)
+|=|req_reg_invite :=: Zapout uvítací systém/inv klíèe na Account (jako gmail) (0-zakázáno) | Potøebná "Aktivace Accountu"&"Klíè pro registraci" 
+|=|default_component :=: Defaultní komponenty (frontpage)
+|=|avatar_path :=: Cesta do sloky Avatarù
+|=|smiles_path :=: Cesta do sloky Smajlíkù
+|=|debuginfo :=: Zobrazit debug zprávu (1-ano/0-ne)
+|=|onlinelist_on :=: Zobrazit online seznam (1-ano/0-ne)
+|=|reg_key :=: Registraèní klíèe
+|=|bad_reg_key :=: Nemáš poadovanı registraèní kliè
+|=|reg_acclimit :=: Nemùeš vytvoøit více accountù pro tuto IP.
+|=|cpass :=: Potrvdit heslo
+|=|reg_checklogin :=: Zadej login od %d do %d pismen (latin abeceda & cisla )
+|=|reg_checkloginex :=: Zadany login existuje
+|=|reg_checkemail :=: Zadej spravny Email
+|=|reg_checkemailex :=: Zadany email existuje
+|=|reg_checkpass :=: Zadej heslo od %d do %d pismen
+|=|reg_checkcpass :=: Hesla se neshoduji
+|=|accediting :=: Account management
+|=|gmlevel :=: GM level
+|=|viewcharacter :=: Zobrazit postavu
+|=|warn_email :=: Bez funkcniho E-Mailu se nemuzete registrovat. Posleme vam Email s klicem pro aktivaci.
+|=|reg_succ :=: Registrace v poøádku 
+|=|ref_fail :=: Registrace selhala.
+|=|act_succ :=: Aktivace v poøádku, nyní se mùete pøihlásit.
+|=|bad_act_key :=: Špatnı aktivaèní kód.
+|=|email_sent_act :=: Na váš E-Mail byl zaslán aktivaèní kód.
+|=|hideemail :=: Nezobrazovat E-Mail ?
+|=|notselected :=: Nevybráno
+|=|hideprofile :=: Schovat profil ?
+|=|gender :=: Pohlaví
+|=|male :=: Mu
+|=|female :=: ena
+|=|icq :=: ICQ
+|=|wherefrom :=: Z 
+|=|avatar :=: Avatar
+|=|delavatar :=: Smazat ?
+|=|maxavatarsize :=: Maximální velikost souboru
+|=|maxavatarres :=: Maximální velikost obrázku
+|=|uploadavatar :=: Uploadnout avatar
+|=|signature :=: Podpis
+|=|reset :=: Resetovat
+|=|theme :=: Schéma
+|=|change_mail :=: Zmìnìní E-Mailu probìhlo v poøádku.
+|=|bad_mail :=: Špatı E-Mail
+|=|change_pass_short :=: Krátké heslo.
+|=|email_sent_keys :=: %d Nové uvítací kódy byly poslány na váš e-mail.
+|=|agree :=: Souhlasím
+|=|disagree :=: Nesouhlasím
+|=|rules_agreement :=: Pravidla & Souhlas
+|=|next :=: Další
+|=|inbox :=: Inbox
+|=|outbox :=: Outbox
+|=|mark :=: oznaèení
+|=|post_all :=: Vše
+|=|post_none :=: ádny
+|=|post_read :=: Èíst
+|=|post_for :=: Pro
+|=|post_from :=: Z
+|=|post_reply :=: Odpovìd
+|=|post_reply_to :=: Odpovìdìt 
+|=|post_subj :=: Pøedmìt
+|=|post_view :=: Ètení zprávy
+|=|list_users :=: Seznam uivatelù
+|=|view_profile :=: Zobrazit profil
+|=|personal_messages :=: Personální Zpráva
+|=|delete_marked :=: Smazat oznaèení
+|=|no_such_addr :=: ádná adresa
+|=|emailtext_inv_keys :=: Todle je váš uvítací klíè: %s Mùete ho pouít pøi registraci více accountu nebo jej sdílet s jinımi lidmi.
+|=|write :=: Napsat
+|=|messages :=: Zprávu
+|=|newmessages :=: [Novı]
+|=|newmessage :=: Novı
+|=|lastreplyin :=: Poslední odpovìï v
+|=|from :=: Od 
+|=|hidden :=:  [Skrytı]
+|=|today_at :=: Dnes v 
+|=|yesterday_at :=: Vèera v 
+|=|l_theme1 :=: topik
+|=|l_theme2 :=: topiky
+|=|l_theme3 :=: topiky
+|=|l_theme4 :=: topik
+|=|l_post1 :=: zpráva
+|=|l_post2 :=: zprávy
+|=|l_post3 :=: zprávy
+|=|replies :=: Odpovìdi
+|=|views :=: Zobrazení
+|=|lastpost :=: Poslední odpovìï
+|=|lastpostby :=: od
+|=|subject :=: Pøedmìt
+|=|newtopic :=: Zaloit Topik
+|=|markread :=: Oznaèit jako pøeètené
+|=|sticky :=: Nerozhodnı
+|=|closed :=: Uzavøeno
+|=|quote :=: Citace
+|=|reply :=: Odpovìï
+|=|smtgtosay :=:  Chceš nìco øíct ?
+|=|dostick :=: Stick
+|=|dounstick :=: Unstick
+|=|doopen :=: Otevøeno
+|=|doclose :=: Uzavøeno
+|=|newpost :=: Nová zpráva
+|=|edittopic :=: Editace Topiku
+|=|editpost :=: Editace zprávy
+|=|l_subject :=: Jméno topiku
+|=|server :=: Server
+|=|realms_status :=: Stav Realmu
+|=|choose_realm :=: Vyber tvùj Realm
+|=|choose_faction :=: Vyber tvoji frakci
+|=|choose_realmfaction :=: Klikni sem pro vıbìr Realmu a frakce
+|=|standing :=: bìnı
+|=|rank :=: Rank
+|=|name :=: Jméno
+|=|charname :=: Jméno postavy
+|=|guild :=: Guilda
+|=|guildname :=: Jméno Guildy
+|=|level :=: Level
+|=|level_short :=: Lvl
+|=|h_kills :=: Honory
+|=|dh_kills :=: Dishonory
+|=|rating :=: Hodnocení
+|=|players_all :=: Všichni hráèi
+|=|lifetime_kills :=: Killy
+|=|location :=: Lokace
+|=|acc_create_rules :=: <p aling="left" class="header_1"> Pravidla: </p> <font color="red"><b>Zakázáno:</b> </font><br><li> Cheating or hacking<br><li> Abuse other players<br><li> Asking GMs for items (only ask when some quest is bugged)<br><font color="red"><b>Povoleno:</b> </font><br><li>  Be friendly<br><li>  Report Bugs
+|=|realmstatus_desc :=: Tato stránka zobrazuje dostupné World of Warcraft Realmy.  Realm mùe bıt <img src="images/uparrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(35, 67, 3);">OnLine</b> nebo <img src="images/downarrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(102, 13, 2);">OffLine</b>. Messages related to Realm status and scheduled maintenance will be posted in the <a href="index.php?n=forum">Realm Status Forum</a>. Let us apologize in advance if your Realm is listed as down. Chances are we're working diligently to bring it back online as quickly as possible.
+|=|inventory :=: Inventáø
+|=|attachs_path :=: Cesta do attachs sloky
+|=|max_attachs_size :=: Místo pro attachs/uivatel
+|=|allowed_attachs :=: Alowed attachs extentions
+|=|max_file_size :=: Maximální velikost souboru
+|=|allowed_ext :=: Allowed extention
+|=|paste_to_message :=: Pøidat do zpráv
+|=|download_times :=: Ke staení
+|=|commands :=: Pøíkazy
+|=|chars :=: Postavy
+|=|playermap :=: Mapa hráèù
+|=|online :=: jsou online
+|=|who :=: Kdo
+|=|where :=: Kde
+|=|when :=: Kdy
+|=|whoisonline :=: Kdo je online
+|=|si_status :=: Stav Realmu
+|=|si_ip :=: IP serveru
+|=|si_type :=: Typ
+|=|si_lang :=: Jazyk
+|=|si_pop :=: Populace
+|=|si_acc :=: Accounty
+|=|si_chars :=: Postavy
+|=|si_on :=: Online
+|=|si_regrate :=: Raty Regenerace
+|=|si_regrate_health :=: ivoty
+|=|si_regrate_mana :=: Mana
+|=|si_droprate :=: Drop raty
+|=|si_droprate_items :=: Itemy
+|=|si_droprate_money :=: Peníze
+|=|si_exprate :=: XP Raty
+|=|si_exprate_kill :=: Kill
+|=|si_exprate_quest :=: Quest
+|=|si_exprate_explore :=: Explore
+|=|si_restrate :=: Resting points grow rates
+|=|si_restrate_city :=: City or Tavern
+|=|si_restrate_ingame :=: VeHøe
+|=|si_restrate_wild :=: In wilderness
+|=|si_skillvalue :=: Skill chance values
+|=|si_skillvalue_orange :=: oranová
+|=|si_skillvalue_yellow :=: lutá
+|=|si_skillvalue_green :=: zelená
+|=|si_skillvalue_grey :=: šedá
+|=|quicklink1 :=: Vytvoøení Accountu
+|=|quicklink2 :=: Správa Accountu
+|=|quicklink3 :=: Stav Realmu
+|=|quicklink4 :=: FAQ
+|=|quicklink6 :=: Talenty
+|=|quicklink7 :=: Pøikazy ve høe
+|=|quicklink8 :=: Mapa hráèù
+|=|talent_index :=: Index of Tree of Talens
+|=|talent_summary :=: Summary
+|=|talent_print :=: Verze pro tisk
+|=|talent_import :=: Získat z Blizzard calculator
+|=|chat :=: Chat
+|=|choose_lang :=: Vyber jazyk
+|=|context_menu :=: Obsah menu
+|=|teamspeak :=: Teamspeak
+|=|news_add :=: Pøidat novinku
+|=|ts_display :=: Teamspeakstatus zapnout nebo vypnout (0=vypnout, 1=zapnout)
+|=|chat_display :=: Chat zapnout nebo vypnout (0=vypnout 1=zapnout)
+|=|ts_ip :=: Teamspeak IP Adresa
+|=|ts_port_udp :=: Teamspeak UDP Port
+|=|chat_adminpass :=: Chat heslo admina
+|=|banner_display :=: Banner on or off (0=off, 1=on)
+|=|site_register :=: Register on or off (0=off, 1=on)
+|=|msn :=: MSN
+|=|Alliance :=: Alliance
+|=|Horde :=: Horda
+|=|race :=: Rasa
+|=|Human :=: Èlovìk
+|=|Dwarf :=: Trpaslík
+|=|Nightelf :=: Noèní Elf
+|=|Gnome :=: Gnom
+|=|Orc :=: Ork
+|=|Tauren :=: Tauren
+|=|Troll :=: Troll
+|=|Undead :=: Nemrtví
+|=|class :=: Povolání
+|=|Warrior :=: Warrior
+|=|Paladin :=: Paladin
+|=|Hunter :=: Hunter
+|=|Rogue :=: Rogue
+|=|Priest :=: Priest
+|=|Warlock :=: Warlock
+|=|Druid :=: Druid
+|=|Shaman :=: Shaman
+|=|Mage :=: Mage
+|=|Bloodelf :=: Blood elf
+|=|Dranei :=: Dranei
+|=|admin_forum :=: Fórum
+|=|ar1 :=: Soukromé
+|=|ar2 :=: Caporal
+|=|ar3 :=: Sergeant
+|=|ar4 :=: Master Sergeant
+|=|ar5 :=: Sergeant Major
+|=|ar6 :=: Knight
+|=|ar7 :=: Knight-Lieutenant
+|=|ar8 :=: Knight-Captain
+|=|ar9 :=: Knight-Champion
+|=|ar10 :=: Lieutenant-Commander
+|=|ar11 :=: Commander
+|=|ar12 :=: Marshal
+|=|ar13 :=: Field Marshal
+|=|ar14 :=: Grand Marshal
+|=|hr1 :=: Scout
+|=|hr2 :=: Grunt
+|=|hr3 :=: Sergeant
+|=|hr4 :=: Senior-Sergeant
+|=|hr5 :=: First Sergeant
+|=|hr6 :=: Stone Guard
+|=|hr7 :=: Blood Guard
+|=|hr8 :=: Legionnaire
+|=|hr9 :=: Centurion
+|=|hr10 :=: Champion
+|=|hr11 :=: Lieutenant General
+|=|hr12 :=: General
+|=|hr13 :=: Warlord
+|=|hr14 :=: High Warlord
+|=|gm_online :=: Online GM
+|=|faq :=: FAQ
+|=|lastcomment :=: poslední komentáø
+|=|isonline :=: User is online
+|=|areonline :=: Users are online
+|=|statistic :=: Statistic
+|=|page :=: Page
+|=|newsubject :=: New subject
+|=|notreadsubject :=: Subject not read
+|=|readsubject :=: Subject read
+|=|nonewpost :=: There is no new post
+|=|postclose :=: Forum close
+|=|howtoplay :=: How To Play
+|=|up_notallowed :=: You are not allowed to upload files!
+|=|up_banned :=: Reason: Banned
+|=|vote_success :=: Voting successful!
+|=|vote_alreadyvoted :=: You have already voted!
+|=|vote_image :=: Vote for this image
+|=|quicklinks :=: Quicklinks
+|=|useronhp :=: Users on Homepage
+|=|serverinfo :=: Serverinformation

@@ -1,0 +1,39 @@
+#cnt { width: 735px; height: auto; }
+.theme-container { position: absolute; display: block; right: 29px; _right: 23px; top: 61px; z-index:10; }
+.select-theme { display: block; width: 98px; height: 26px; background: url('../images/theme-select-alliance.jpg') no-repeat; }
+.alliance { display: block; width: 38px; height: 25px; background: url('../images/theme-icon-alliance1.gif') no-repeat; margin-left: 55px; }
+.horde { display: block; width: 38px; height: 50px; background: url('../images/theme-icon-horde0.png') no-repeat; _background: url('../images/theme-icon-horde0.jpg') no-repeat; margin-left: 55px; }
+#main-top {	height: 25px; width: auto; background: url('../images/frame_top-bg.jpg') repeat-x 0 0; position: relative; top:0px; z-index:0; }
+#main-top div { height: 25px; background: url('../images/frame_top-left.jpg') no-repeat top left; }
+#main-top div div { height: 25px; background: url('../images/frame_top-right.jpg') no-repeat top right; }
+#main-content-wrapper { background: url('../images/frame_left-bg.jpg') repeat-y 0 0; height: auto; }
+#cnt-wrapper { padding-right:10px; padding-left:10px; padding-top:10px; }	
+#main-content { height: auto; background: url('../images/frame_right-bg.jpg') repeat-y top right; }
+#cntmain { background: url(../images/light.jpg) repeat 0 0; }
+#cnt-top { background: url(../images/cnt-paper-top.jpg) repeat-x top left; height: 13px; }
+#cnt-top div { height: 13px; background: url(../images/cnt-paper-topleft.jpg) no-repeat top left; }
+#cnt-top div div { height: 13px; background: url(../images/cnt-paper-topright.jpg) no-repeat top right; }
+#content-left {	background: url(../images/cnt-paper-left.jpg) repeat-y top left; }
+#content-right { height: auto; background: url(../images/cnt-paper-right.jpg) repeat-y top right; }
+#cnt-bot { height: 7px;	background: url(../images/cnt-paper-bot.jpg) repeat-x bottom left; font-size: 1px; } 
+#cnt-bot div { height: 7px;	background: url(../images/cnt-paper-botleft.jpg) no-repeat 0 100%; }
+#cnt-bot div div { height: 7px;	background: url(../images/cnt-paper-botright.jpg) no-repeat bottom right; }		
+#main-bottom { height: 41px; margin-bottom: -16px; width: auto; background: url('../images/frame_bottom-bg.jpg') repeat-x 0 0; z-index: 100; }
+@media all and (min-width: 0px) { 
+#main-bottom { margin-bottom: -20px; }
+}
+#main-bottom div { height: 41px; background: url('../images/frame_bottom-left.jpg') no-repeat top left; }
+#main-bottom div div { height: 41px; background: url('../images/frame_bottom-right.jpg') no-repeat top right; }
+div div div#blizzlogo-bot { position: relative; display: block; text-align: center; top: -52px; left: auto;	background: none; z-index: 500; }
+#ironframe { display: block; height: 20px; background: black url('../images/ironframe-bg.jpg') repeat-x top; position: relative; border: 0; width:100%; margin-bottom: 80px; z-index: 0; }
+#ironframe { margin-top: -2px; }
+*html #ironframe { margin-top: -2px; margin-bottom: 60px; }
+#copyright { display: block; position: relative; top: 75px; left: auto;	color: #8e8e8e; }
+#copyright span.esrb { position: absolute; top: 11px; left: 112px; z-index: 400; }
+#copyright span.rating { position: absolute; top: -5px;	left: -20px; z-index: 400; }
+#copyright span.esrb-caution { position: absolute; top: 11px; right: 75px; z-index: 400; }
+#copyright span.nvidia { position: absolute; top: -8px;	right: -25px; z-index: 400; }
+#copyright span.textlinks {	display: table;	position: relative;	text-align: center;	padding-left: 10px;	top: 15px; left: auto; z-index: 400; }
+#copyright a, #copyright a:link, #copyright a:active { font-size: 11px;	color: #ffb019;	font-weight: bold; }
+#copyright a:visited { font-size: 11px;	color: #d29e3b;	font-weight: bold; }
+#copyright a:hover { color: white; text-decoration: none; font-weight: bold;}

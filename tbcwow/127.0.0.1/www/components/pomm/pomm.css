@@ -1,0 +1,92 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #EABA28;
+	background-color: #000000;
+}
+#world {
+	position: absolute;
+	height: 525px;
+	width: 784px;
+	left: 50%;
+	margin-left: -392px;
+	background-image: url(img/map.jpg);
+	z-index: 10;
+}
+#points {
+	position: absolute;
+	height: 525px;
+	width: 784px;
+	left: 50%;
+	margin-left: -392px;
+	z-index: 100;
+}
+#wow {
+	position: absolute;
+	height: 525px;
+	width: 784px;
+	left: 50%;
+	margin-left: -392px;
+	z-index: 20;
+	text-align: center;
+	clear: none;
+	float: none;
+}
+#info {
+	position: absolute;
+	height: 525px;
+	width: 784px;
+	left: 50%;
+	margin-left: -392px;
+	z-index: 30;
+	text-align: center;
+}
+#timer {
+	font-family: arial;
+	font-size: 12px;
+	font-style: normal;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFF99;
+	z-index: 40;
+	filter: Glow(Color=#000099, Strength=3);
+}
+#server_info {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFF99;
+	filter: Glow(Color=0, Strength=3);
+}
+#tip {
+	background: #000000;
+	border: 0px solid #aaaaaa;
+	left: -1000px;
+	padding: 0px;
+	position: absolute;
+	top: -1000px;
+	z-index: 110;
+} 
+.tip_header {
+	background: #bb0000;
+	FONT-WEIGHT: bold;
+	color: #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	text-align: center;
+	padding: 0px;
+} 
+.tip_text {
+	background: #000000;
+	FONT-WEIGHT: normal;
+	color: #ffffff;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	text-align: center;
+	padding: 3px;
+} 

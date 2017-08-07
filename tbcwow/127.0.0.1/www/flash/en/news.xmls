@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?>
+<movie>		   
+	<featured>
+		<item1 title="wrath.swf" link="http://www.wow-europe.com/wrath/" />
+		<item2 title="blizzcon07.swf" link="http://www.blizzard.co.uk/blizzcon07/" />
+		<item3 title="fanart_banner.swf" link="http://www.wow-europe.com/en/contests/leipzig/" />
+		<item4 title="unbroken_banner.swf" link="http://www.wow-europe.com/en/info/story/unbroken/index.html" />
+		<item5 title="../cafesale.swf" link="http://www.wow-europe.com/en/community/spotlight/cfsl/index.html" />
+    	<item6 title="../l70etc-eu.swf" link="http://media.worldofwarcraft.com/blizzcon/iammurloc/iammurloc_en.html" />
+    	<item7 title="armorsets_t6.swf" link="http://wow-europe.com/en/info/basics/armorsets/" />
+		<item8 title="patch2-1.swf" link="http://www.worldofwarcraft.com/patchnotes/patch2p10.html" />
+		<item9 title="support.swf" link="/index.php?n=server&sub=commands" />
+		<item10 title="cristadaportal.swf" link="http://www.worldofwarcraft.com/news/rss-04-2007.xml" />
+		<item11 title="sunwell.swf" link="http://www.wow-europe.com/en/comicreader/" />
+		<item11 title="armory.swf" link="http://armory.wow-europe.com/updates.xml" />
+		</featured>
+</movie>

@@ -1,0 +1,474 @@
+|=|ErrorFilename :=: Image with that filename already exist. Please rename your file!
+|=|Filesizes :=: The size of a file exceeds 200 kb and should be in expansion .jpg
+|=|Filesizew :=: The size of a file exceeds 4 mb
+|=|Filetype :=: Not correct type of a file
+|=|Uploaderror :=: Upload file error
+|=|Totalingallery :=: Total images in galleries
+|=|Comment :=: Comment :
+|=|Author :=: Author :
+|=|File :=: File :
+|=|Date :=: Date :
+|=|Addimage :=: Add image
+|=|UWallp :=: Upload Wallpaper
+|=|UScreen :=: Upload Screenshot
+|=|wallp :=: Wallpapers
+|=|screen :=: Screenshots
+|=|GallWalp :=: Wallpapers gallery
+|=|GallScreen :=: Screenshots gallery
+|=|charcreate_invalidname :=: Error, Name unvalid (You have to pick a name for your character). Try again. <br />Redicting.. Please wait.
+|=|charcreate_nameinuse :=: Error, Name unvalid (Name already in use). Try again. <br />Redirecting.. Please wait.
+|=|charcreate_loggedin :=: Error, your account is already logged in. Please log out before using this future.<br />Redicting.. Please wait.
+|=|charcreate_charcreated :=: <h1>Congratulations</h1>, your character was created. You can now log in and play on it. Enjoy.<br />Redirecting...</td></tr></table>
+|=|charcreate_nameissymbols :=: The name consists of characters that is not allowed.<br />Redicting...
+|=|charcreate_underconstruction :=: This Class and race is currently beeing worked on, expect it to be up as soon as possible<br />Redicting...
+|=|charcreate_tomanychars :=: You have to many characters on your account, please log in and delete a character to be able to create another one at the account management.
+|=|charcreate_cannotcreatemorechars :=: You can not create anymore characters!
+|=|module_ah :=: Auction House
+|=|ah_itemclass :=: Type
+|=|ah_itemname :=: Item
+|=|ah_quantity :=: Qty.
+|=|ah_seller :=: Seller
+|=|ah_time :=: Time
+|=|ah_buyer :=: Buyer
+|=|ah_currentbid :=: Current Bid
+|=|ah_buyout :=: Buyout Price
+|=|ah_auctionhouse :=: Auction House
+|=|ah_reset :=: (reset)
+|=|ah_hours :=: h
+|=|ah_minutes :=: m
+|=|ah_seconds :=: s
+|=|ah_expired :=: Expired
+|=|ah_sortbyquality :=: (sort by quality)
+|=|reset_succ_secretq :=: Kamu baru saja mengganti pertanyaan rahasia. Sangat direkomendasikan untuk mempunyai pertanyaan rahasia pada account kamu.
+|=|not_require_loggedin :=: Kamu harus LOGOUT untuk dapat menggunakan fungsi ini.
+|=|require_loggedin :=: Kamu harus LOGIN untuk dapat menggunakan fungsi ini.
+|=|intro_account_restore :=: Apakah kamu lupa passwordnya ? Masukkan Nama Account kamu pada kotak yang tersedia dan harap ingat pertanyaan rahasia kamu.
+|=|restore_pass_ok :=: Data kamu telah berubah, ubahlah password kamu dibawah ini. Sangat disarankan untuk mengganti password kamu!
+|=|fail_restore_pass :=: Data kamu tidak benar.
+|=|have_secretq :=: <font color='green'>Pertanyaan rahasia untuk mengganti password telah tersimpan!</font>
+|=|not_have_secretq :=: <font color='red'>Kamu belum mempunyai pertanyaan rahasia, sangat dianjurkan untuk mempunyai pertanyaan rahasia untuk mengembalikan password yang hilang!</font>
+|=|fail_change_secretq :=: Pertanyaan rahasia tidak berubah. Silahkan baca cara untuk mengganti pertanyaan rahasia.
+|=|changed_secretq :=: Kamu telah berhasil mengganti pertanyaan rahasia. Harap diingat jika kamu lupa password.
+|=|secretq1_info :=: Ketentuan untuk menambah pertanyaan rahasia: <ul><li>Jawaban setidaknya mempunyai 4 karakter atau lebih</li><li>Jawaban tidak mengandung simbol</li><li>Kamu harus mengisi semua kotak pertanyaan dan kotak jawaban</li></ul>
+|=|secretq2_info :=: Ketentuan untuk menambah pertanyaan rahasia: <ul><li>Jawaban setidaknya mempunyai 4 karakter atau lebih</li><li>Jawaban tidak mengandung simbol</li><li>Kamu harus mengisi semua kotak pertanyaan dan kotak jawaban</li></ul>|=|secretq2 :=: Pertanyaan rahasia ke 2
+|=|secretq1 :=: Pertanyaan rahasia ke 1
+|=|agreeement_detailschange :=: Kamu menyetujui bahwa kamu pemilik yang sah pada account ini.
+|=|accountmanage_important :=: Seting Password dan E-mail.
+|=|accountmanange_intro :=: Selamat datang pada manajemen account management, disini kamu dapat merubah sema setingan kamu.
+|=|START_NEW_PROJECT :=: MEMULAI PROYEK BARU. Ini hanya contoh.
+|=|yes :=: Ya
+|=|no :=: Tidak
+|=|mainpage :=: Halaman Depan
+|=|news :=: Berita
+|=|news_archive :=: Kumpulan Berita
+|=|last_news :=: Berita Terkini
+|=|account_create :=: Daftar Baru
+|=|account_activate :=: Aktifkan account
+|=|account :=: Account
+|=|account_manage :=: Account Saya
+|=|userlist :=: Daftar Pemain
+|=|realm_status :=: Status Server
+|=|retrieve_pass :=: Lupa Password
+|=|contact :=: Kontak
+|=|honor :=: Reputasi Pemain
+|=|map :=: Map
+|=|players_online :=: Pemain yang Online
+|=|bugs :=: Lacak Bug
+|=|files :=: Berkas
+|=|bugtracker :=: Pemberitahuan mengenai bug
+|=|static_docs :=: Dokumen tetap
+|=|forums :=: Forum
+|=|forums_support :=: Forum Bantuan Teknis
+|=|gmlist :=: Daftar GM
+|=|activation :=: Aktifasi
+|=|forbiden :=: Dilarang
+|=|admin_panel :=: Panel Admin
+|=|dochange :=: Ganti
+|=|dodelete :=: Hapus
+|=|doedit :=: Ubah
+|=|doreset :=: Ulang
+|=|doupdate :=: Perbaharui
+|=|docreate :=: Ciptakan
+|=|youhavenorights :=: Kamu tidak mempunyai hak untuk melihat halaman ini!
+|=|pagegenerated :=:  Halaman ini disusun selama
+|=|forgetpass :=: Lupa password ?
+|=|register :=: Daftar Baru
+|=|login :=: Masuk
+|=|logout :=: Keluar
+|=|profile :=: Data Diri
+|=|enter_as :=: Kamu masuk sebagai
+|=|newpms :=: Pesan baru
+|=|username :=: Nama
+|=|pass :=: Kata Kunci
+|=|email :=: Email
+|=|select_name :=: Pilih nama
+|=|up :=: Atas
+|=|down :=: Bawah
+|=|author :=: Pengirim
+|=|type :=: Tipe
+|=|title :=: Judul
+|=|text :=: Teks
+|=|add :=: Tambahkan
+|=|back :=: Sebelumnya
+|=|time :=: Waktu
+|=|posted :=: Terkirim
+|=|close :=: Tutup
+|=|open :=: Buka
+|=|edit :=: ubah
+|=|delete :=: hapus
+|=|format :=: Bentuk
+|=|size :=: Ukuran
+|=|download :=: Ambil
+|=|upload :=: Kirim Berkas
+|=|file :=: Berkas
+|=|characters :=: Karakter
+|=|items :=: Barang
+|=|editor_bold :=: Tebal
+|=|editor_italic :=: Miring
+|=|editor_underline :=: Garis Bawah
+|=|editor_strikethrough :=: Coret
+|=|editor_pagebreak :=: Garis mendatar
+|=|editor_image :=: Gambar
+|=|editor_link :=: Tautan
+|=|editor_email :=: Email
+|=|editor_fontcolor :=: Warna huruf
+|=|editor_code :=: Kode
+|=|editor_quote :=: Kutip
+|=|editor_jusleft :=: Rapih kiri
+|=|editor_juscenter :=: Rapih tengah
+|=|editor_jusright :=: Rapih kanan
+|=|editor_preview :=: Tayangan
+|=|editor_clear :=: Bersihkan
+|=|editor_backtoedit :=: Ubah ulang
+|=|editor_send :=: Kirim
+|=|uploaddblclk :=: Klik 2 kali penyisipan
+|=|site_config :=: Setingan Situs
+|=|realms_manage :=: Server
+|=|components_manage :=: Komponen
+|=|users_manage :=: Pemain
+|=|regkeys_manage :=: Daftar kunci
+|=|forums_manage :=: Forum
+|=|langs_manage :=: Bahasa
+|=|news_manage :=: Ubah berita
+|=|commands_manage :=: Ubah perintah (pada game)
+|=|chat_manage :=: Atur Pembicaraan
+|=|categories :=: Kategori
+|=|order :=: Urut
+|=|recount :=: Hitung ulang topik/post
+|=|hide :=: Sembunyikan
+|=|show :=: Tampilkan
+|=|l_name :=: Nama
+|=|l_desc :=: Deskripsi
+|=|donewforum :=: Buat forum baru
+|=|donewcat :=: Buat kategori baru
+|=|l_newkeys :=: Masukkan nomor kunci (1-300) 
+|=|l_delkey :=: Hapus kunci
+|=|l_delkey_id :=: oleh Id
+|=|l_delkey_name :=: atau oleh Kunci
+|=|editing :=: Pengubahan
+|=|sure_q :=: Kamu sudah yakin ?
+|=|change_pass_succ :=: Berhasil mengganti password.
+|=|doretrieve_pass :=: Kirim password.
+|=|retrieve_pass_succ :=: Berhasil mengirim password ke email kamu.
+|=|retrieve_pass_fail :=: Account atau Email salah.
+|=|email_retrieve_pass :=: Password kamu adalah: %s | Harap diingat.
+|=|post_pages :=: halaman
+|=|all :=: Semua
+|=|user_name :=: Nama Pemain
+|=|personal_message :=: Pesan Pribadi
+|=|pers_mess :=: PM
+|=|date_reg :=: Tanggal pendaftaran
+|=|viewedit_profile :=: Ubah/Lihat data diri
+|=|homepage :=: WWW
+|=|active_ban :=: Aktif/Larang
+|=|max_accounts_per_ip :=: Koneksi maksimal IP (0-tanpa batas)
+|=|posts_per_page :=: Post per halaman (forum)
+|=|topics_per_page :=: Topik per halaman (forum)
+|=|users_per_page :=: Users per page
+|=|posts_per_star1 :=: Butuh post untuk tingkat 1
+|=|posts_per_star2 :=: Butuh post untuk tingkat 2
+|=|posts_per_star3 :=: Butuh post untuk tingkat 3
+|=|posts_per_star4 :=: Butuh post untuk tingkat 4
+|=|posts_per_star5 :=: Butuh post untuk tingkat 5
+|=|site_title :=: Judul Situs
+|=|site_encoding :=: Sandi Situs
+|=|site_cookie :=: Nama cookies situs
+|=|site_email :=: Alamat email situs ("dari")
+|=|smtp_adress :=: server smtp
+|=|smtp_username :=: server smtp  - login
+|=|smtp_password :=: server smtp - password
+|=|max_avatar_size :=: Resolusi maksimal avatar (PxL px)
+|=|max_avatar_file :=: Resolusi maksimal ukuran file (bytes)
+|=|change_email :=: Ganti e-mail
+|=|change_pass :=: Ganti password
+|=|change_template :=: Perbolehkan pemain mengganti tampilan (1-ya/0-tidak)
+|=|req_reg_key :=: Membutuhkan Key untuk pendaftaran (1-ya/0-tidak)
+|=|req_reg_act :=: Membutuhkan aktifasi account melalui email (1-ya/0-tidak)
+|=|req_reg_invite :=: Hidupkan sistem undangan / kesalahan key setiap account (seperti gmail) (0-dimatikan) | Membutuhkan "aktifasi account" & "key untuk mendaftar"
+|=|default_component :=: Komponen Semula (halaman depan)
+|=|avatar_path :=: Jalur untuk direktori logo pribadi
+|=|smiles_path :=: Jalur untuk direktor emoticons
+|=|debuginfo :=: Tampilkan pesan debug (1-ya/0-tidak)
+|=|onlinelist_on :=: Hidupkan daftar online (1-ya/0-tidak)
+|=|reg_key :=: Kunci pendaftaran
+|=|bad_reg_key :=: Kamu tidak memasukan Key yang sah
+|=|reg_acclimit :=: Kamu tidak bisa mendaftar account tambahan pada IP yang sama
+|=|cpass :=: Konfirmasi Password
+|=|reg_checklogin :=: Masukkan login dengan karakter mulai dari %d sampai dengan %d (hanya karakter alfabet dan angka)
+|=|reg_checkloginex :=: Login tersebut sudah ada
+|=|reg_checkemail :=: Masukkan email yang sah
+|=|reg_checkemailex :=: Email tersebut sudah ada
+|=|reg_checkpass :=: Masukkan password dengan karakter mulai dari %d sampai dengan %d
+|=|reg_checkcpass :=: Password tidak sama/cocok
+|=|accediting :=: Manajemen account
+|=|gmlevel :=: Tingkatan akses
+|=|viewcharacter :=: Lihat karakter
+|=|warn_email :=: Tanpa ada email, kamu tidak dapat mendaftar. Kami akan mengirimkan Key pada alamat email yang telah terdaftar untuk mengaktifasikan account kamu.
+|=|reg_succ :=: Pendaftaran berhasil, sekarang kamu bisa masuk.
+|=|ref_fail :=: Pendaftaran gagal
+|=|act_succ :=: Aktifasi berhasil, sekarang kamu bisa masuk.
+|=|bad_act_key :=: Aktifasi Key salah.
+|=|email_sent_act :=: Mengirimkan aktifasi key pada email kamu.
+|=|hideemail :=: sembunyikan e-mail?
+|=|notselected :=: Tidak dipilih
+|=|hideprofile :=: Sembunyikan profile?
+|=|gender :=: Jenis kelamin
+|=|male :=: Pria
+|=|female :=: Wanita
+|=|icq :=: ICQ
+|=|wherefrom :=: Dari
+|=|avatar :=: Logo pribadi
+|=|delavatar :=: Hapus?
+|=|maxavatarsize :=: Ukuran maksimal file
+|=|maxavatarres :=: Ukuran maksimal gambar
+|=|uploadavatar :=: Kirim Logo pribadi
+|=|signature :=: Tanda tangan
+|=|reset :=: Ulangi
+|=|theme :=: Tema
+|=|change_mail :=: Pergantian email berhasil.
+|=|bad_mail :=: Email salah.
+|=|change_pass_short :=: Password terlalu pendek.
+|=|email_sent_keys :=: %d kunci ajakan baru telah terkirim ke email kamu.
+|=|agree :=: Setuju
+|=|disagree :=: Tolak
+|=|rules_agreement :=: Peraturan dan Ketentuan
+|=|next :=: Selanjutnya
+|=|inbox :=: Inbox
+|=|outbox :=: Outbox
+|=|mark :=: Tandai
+|=|post_all :=: Semua
+|=|post_none :=: Kosong
+|=|post_read :=: Baca
+|=|post_for :=: Untuk
+|=|post_from :=: Dari
+|=|post_reply :=: Balas
+|=|post_reply_to :=: Balas kepada
+|=|post_subj :=: Judul
+|=|post_view :=: Baca email
+|=|list_users :=: Daftar pemain
+|=|view_profile :=: Lihat profile
+|=|personal_messages :=: Pesan Pribadi
+|=|delete_marked :=: Hapus yang telah ditandai
+|=|no_such_addr :=: Alamat tersebut tidak ada
+|=|emailtext_inv_keys :=: Ini adalah Key undangan kamu: %s Kamu dapat gunakan untuk mendaftar account tambahan atau mengundang calon pemain lainnya.
+|=|write :=: Tulis
+|=|messages :=: Pesan
+|=|newmessages :=: [Baru]
+|=|newmessage :=: Baru
+|=|lastreplyin :=: Balasan terakhir pada
+|=|from :=: dari
+|=|hidden :=:  [Disembunyikan]
+|=|today_at :=: Hari ini pada 
+|=|yesterday_at :=: Kemarin pada 
+|=|l_theme1 :=: Topik
+|=|l_theme2 :=: Topik-topik
+|=|l_theme3 :=: Topik-topik
+|=|l_theme4 :=: Topik
+|=|l_post1 :=: kirim
+|=|l_post2 :=: kiriman
+|=|l_post3 :=: kiriman
+|=|replies :=: Balasan
+|=|views :=: Lihat
+|=|lastpost :=: Balasan terakhir
+|=|lastpostby :=: oleh 
+|=|subject :=: Judul
+|=|newtopic :=: Topik baru
+|=|markread :=: Tandai telah terbaca
+|=|sticky :=: Pesan Penting
+|=|closed :=: Tutup
+|=|quote :=: kutip
+|=|reply :=: balas
+|=|smtgtosay :=:  Tidak ada yang perlu ditulis ?
+|=|dostick :=: Penting
+|=|dounstick :=: Tidak penting
+|=|doopen :=: Buka
+|=|doclose :=: Tutup
+|=|newpost :=: Kirim baru
+|=|edittopic :=: Ubah topik
+|=|editpost :=: Ubah kiriman
+|=|l_subject :=: Nama topik
+|=|server :=: Server
+|=|realms_status :=: Status Server
+|=|choose_realm :=: Pilih server
+|=|choose_faction :=: Pilih Pihak
+|=|choose_realmfaction :=: Tekan disini untuk memilih Server dan Pihak kamu
+|=|standing :=: Kedudukan
+|=|rank :=: Peringkat
+|=|name :=: Nama
+|=|charname :=: Nama Karakter
+|=|guild :=: Guild
+|=|guildname :=: Nama Guild
+|=|level :=: Tingkat
+|=|level_short :=: Tingkat
+|=|h_kills :=: Reputasi membunuh
+|=|dh_kills :=: Reputasi dibunuh
+|=|rating :=: Peringkat
+|=|players_all :=: Semua Pemain
+|=|lifetime_kills :=: Lama membunuh
+|=|location :=: Lokasi
+|=|acc_create_rules :=: <p aling="left" class="header_1"> Peraturan: </p> <font color="red"><b>Pemain dilarang:</b> </font><br><li> Melakukan kegiatan curang<br><li> Mengganggu pemain lain<br><li> Meminta barang kepada GM (boleh menanyakan tentang quest yang terkena bug)<br><font color="red"><b>Pemain diharapkan:</b> </font><br><li>  Menghormati pemain lain<br><li>  Melaporkan error dan bug
+|=|realmstatus_desc :=: Halaman ini berisi daftar server yang tersedia beserta statusnya.  Server dapat dikategorikan <img src="./templates/offlike/images/uparrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(35, 67, 3);">Online</b> atau <img src="./templates/offlike/images/downarrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(102, 13, 2);">Tidak Online</b>. Informasi mengenai status server dan jadwal perawatan serta perbaikan dapat dilihat di <a href="index.php?n=forum">Forum Status Server</a>. Mohon maaf jika server tidak online. Kami akan berusaha secepatnya agar segera online kembali.
+|=|inventory :=: Inventaris
+|=|attachs_path :=: Jalur untuk penambahan direktori
+|=|max_attachs_size :=: Kapasitas penambahan untuk setiap pemain
+|=|allowed_attachs :=: Yang diperbolehkan penambahan akhiran
+|=|max_file_size :=: Ukuran maksimal file
+|=|allowed_ext :=: Akhiran yang diperbolehkan
+|=|paste_to_message :=: Tambahkan ke dalam pesan
+|=|download_times :=: telah di download
+|=|commands :=: Perintah Permainan
+|=|chars :=: Daftar Karakter
+|=|playermap :=: Lokasi Pemain
+|=|online :=: Pemain yang Online
+|=|who :=: Siapa
+|=|where :=: Dimana
+|=|when :=: Ketika
+|=|whoisonline :=: Siapa yang sedang online
+|=|si_status :=: Status Server
+|=|si_ip :=: IP Server
+|=|si_type :=: Tipe
+|=|si_lang :=: Bahasa
+|=|si_pop :=: Kepadatan
+|=|si_acc :=: Jumlah Account
+|=|si_chars :=: Jumlah Karakter
+|=|si_on :=: Pemain yang Online
+|=|si_regrate :=: Regeneration rates
+|=|si_regrate_health :=: Health
+|=|si_regrate_mana :=: Mana
+|=|si_droprate :=: Drop rates
+|=|si_droprate_items :=: Items
+|=|si_droprate_money :=: Money
+|=|si_exprate :=: Experience rates
+|=|si_exprate_kill :=: Kill
+|=|si_exprate_quest :=: Quest
+|=|si_exprate_explore :=: Explore
+|=|si_restrate :=: Resting points grow rates
+|=|si_restrate_city :=: City or Tavern
+|=|si_restrate_ingame :=: In Game
+|=|si_restrate_wild :=: In wilderness
+|=|si_skillvalue :=: Skill chance values
+|=|si_skillvalue_orange :=: orange
+|=|si_skillvalue_yellow :=: yellow
+|=|si_skillvalue_green :=: green
+|=|si_skillvalue_grey :=: grey
+|=|quicklink1 :=: Daftar Baru
+|=|quicklink2 :=: Manajemen Account
+|=|quicklink3 :=: Status Server
+|=|quicklink4 :=: Tanya Jawab
+|=|quicklink6 :=: Urutan Talent
+|=|quicklink7 :=: Perintah Permainan
+|=|quicklink8 :=: Lokasi Pemain
+|=|talent_index :=: Urutan Talent
+|=|talent_summary :=: Hasil
+|=|talent_print :=: Print
+|=|talent_import :=: Ambil dari kalkulator Blizzard
+|=|chat :=: Chat
+|=|choose_lang :=: Pilihan Bahasa
+|=|context_menu :=: Isi Sajian
+|=|teamspeak :=: Teamspeak
+|=|news_add :=: Tambah berita
+|=|ts_display :=: Teamspeakstatus on or off (0=off, 1=on)
+|=|chat_display :=: Chat on or off (0=off 1=on)
+|=|ts_ip :=: Teamspeak IP Adress
+|=|ts_port_udp :=: Teamspeak UDP Port
+|=|chat_adminpass :=: Chat Adminpassword
+|=|banner_display :=: Banner hidup atau mati (0=hidup, 1=mati)
+|=|site_register :=: Register on or off (0=hidup, 1=mati)
+|=|msn :=: MSN
+|=|Alliance :=: Alliance
+|=|Horde :=: Horde
+|=|race :=: Bangsa
+|=|Human :=: Human
+|=|Dwarf :=: Dwarf
+|=|Nightelf :=: Night Elf
+|=|Gnome :=: Gnome
+|=|Orc :=: Orc
+|=|Tauren :=: Tauren
+|=|Troll :=: Troll
+|=|Undead :=: Undead
+|=|class :=: Profesi
+|=|Warrior :=: Warrior
+|=|Paladin :=: Paladin
+|=|Hunter :=: Hunter
+|=|Rogue :=: Rogue
+|=|Priest :=: Priest
+|=|Warlock :=: Warlock
+|=|Druid :=: Druid
+|=|Shaman :=: Shaman
+|=|Mage :=: Mage
+|=|Bloodelf :=: Blood elf
+|=|Dranei :=: Dranei
+|=|admin_forum :=: Forum
+|=|ar1 :=: Private
+|=|ar2 :=: Caporal
+|=|ar3 :=: Sergeant
+|=|ar4 :=: Master Sergeant
+|=|ar5 :=: Sergeant Major
+|=|ar6 :=: Knight
+|=|ar7 :=: Knight-Lieutenant
+|=|ar8 :=: Knight-Captain
+|=|ar9 :=: Knight-Champion
+|=|ar10 :=: Lieutenant-Commander
+|=|ar11 :=: Commander
+|=|ar12 :=: Marshal
+|=|ar13 :=: Field Marshal
+|=|ar14 :=: Grand Marshal
+|=|hr1 :=: Scout
+|=|hr2 :=: Grunt
+|=|hr3 :=: Sergeant
+|=|hr4 :=: Senior-Sergeant
+|=|hr5 :=: First Sergeant
+|=|hr6 :=: Stone Guard
+|=|hr7 :=: Blood Guard
+|=|hr8 :=: Legionnaire
+|=|hr9 :=: Centurion
+|=|hr10 :=: Champion
+|=|hr11 :=: Lieutenant General
+|=|hr12 :=: General
+|=|hr13 :=: Warlord
+|=|hr14 :=: High Warlord
+|=|gm_online :=: GM yang Online
+|=|faq :=: Tanya Jawab
+|=|lastcomment :=: Komentar terakhir
+|=|isonline :=: Pengunjung disitus ini.
+|=|areonline :=: orang berada disitus ini.
+|=|statistic :=: Statistik Permainan
+|=|page :=: Halaman
+|=|newsubject :=: Judul baru
+|=|notreadsubject :=: Judul tidak terbaca
+|=|readsubject :=: Baca judul
+|=|nonewpost :=: Tidak ada kiriman terbaru
+|=|postclose :=: Forum ditutup
+|=|howtoplay :=: Cara Bermain
+|=|media :=: media
+|=|screenshots :=: Screenshots
+|=|gallery :=: Art
+|=|downloads :=: Downloads
+|=|up_notallowed :=: Kamu tidak diperbolehkan untuk mengirimkan file!
+|=|up_banned :=: Alasan: Dilarang
+|=|vote_success :=: Pemilihan berhasil!
+|=|vote_alreadyvoted :=: Kamu pernah memilih!
+|=|vote_image :=: Pilih untuk gambar ini
+|=|quicklinks :=: Tautan
+|=|useronhp :=: Pengunjung
+|=|serverinfo :=: Informasi Server

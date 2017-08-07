@@ -1,0 +1,102 @@
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="grey_tpl/darstellung.css" type="text/css">
+<script src="ajaxscript/ajax-incert.js" type="text/javascript"></script>
+<script language="JavaScript">
+
+
+	function insertTag(zeichen)
+	{
+    	document.ono.message.focus();
+    	document.ono.message.value =
+    	document.ono.message.value + zeichen;
+    	document.ono.message.focus();
+	}
+
+	function markSelection(txtObj)
+	{
+		if(txtObj.createTextRange) {
+			txtObj.caretPos = document.selection.createRange().duplicate();
+			isSelected = true;
+		}
+	}
+</script>
+<body background="grey_tpl/pics/back.png" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" onLoad="markSelection(self.document.forms[0].message); parent.oben.macheRequest('reloader.php');">
+<form name="ono" onsubmit="return resend();" action="">
+<script language=javascript>
+function sendTo(nickName) {
+
+	document.forms[0].message.value = " an " +nickName + ": " + document.forms[0].message.value;
+	document.forms[0].message.focus();
+	try {document.forms[0].privat.disabled=false; document.forms[0].privat_name.value=nickName;}
+	catch(e){}
+}
+</script>
+<input name="privat_name" type="hidden" value="">
+
+<div style=" position:absolute; top: 18px; left:45px;">
+<input name="message" autocomplete="off" type="text" class="input" size="40"  ONSELECT="markSelection(this);" ONCLICK="markSelection(this);" ONKEYUP="markSelection(this);">
+&nbsp;<b><a href="#" onClick="return resend();">Send</a></b>
+
+<span class="privat"><!-- {privat} --></span>&nbsp;&nbsp;&nbsp;
+<span class="gross">Colour:</span>
+<select name="farbe" class="input1">
+<!-- {options} -->
+</select>
+&nbsp;&nbsp;&nbsp;
+
+<span class="gross"><b>Bold:</b></span> <!-- {f} -->
+&nbsp;&nbsp;&nbsp;
+<span class="gross"><i>Italic:</i></span> <!-- {k} -->
+<script language=javascript>
+self.document.forms[0].message.focus();
+</script><!-- damit der Cursor immer in der Eingabeleiste steht! -->
+
+ 	 <!--smilies-->
+<a href="javascript:insertTag( ':-))')"><img src="smilies/biggrin.gif" border="0"></a>
+<a href="javascript:insertTag( ':-?')"><img src="smilies/confused.gif" border="0"></a>
+<a href="javascript:insertTag( '8-)')"><img src="smilies/cool.gif" border="0"></a>
+<a href="javascript:insertTag( ':-0')"><img src="smilies/crying.gif" border="0"></a>
+<a href="javascript:insertTag( '8-0')"><img src="smilies/eek.gif" border="0"></a>
+<a href="javascript:insertTag( ':-%')"><img src="smilies/evil.gif" border="0"></a>
+<a href="javascript:insertTag( ':-(')"><img src="smilies/frown.gif" border="0"></a>
+<a href="javascript:insertTag( '*-(')"><img src="smilies/mad.gif" border="0"></a>
+<a href="javascript:insertTag( ':-]')"><img src="smilies/pleased.gif" border="0"></a>
+<a href="javascript:insertTag( '|-0')"><img src="smilies/redface.gif" border="0"></a>
+<a href="javascript:insertTag( ':-|')"><img src="smilies/rolleyes.gif" border="0"></a>
+<a href="javascript:insertTag( ':-)')"><img src="smilies/smile.gif" border="0"></a>
+<a href="javascript:insertTag( ':-~')"><img src="smilies/tongue.gif" border="0"></a>
+<a href="javascript:insertTag( '[-)')"><img src="smilies/tongue2.gif" border="0"></a>
+<a href="javascript:insertTag( ';-)')"><img src="smilies/wink.gif" border="0"></a>
+<a href="javascript:insertTag( '=-)')"><img src="smilies/happy.gif" border="0"></a>
+</div>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="740">
+  <tr>
+   <td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+   <td width="35"><img src="grey_tpl/pics/grey_01.png" alt="" width="35" height="34" border="0"></td>
+   <td width="100%" background="grey_tpl/pics/grey_02.png"><img src="grey_tpl/pics/grey_02.png" width="25" height="34" border="0" alt=""></td>
+   <td width="35"><img src="grey_tpl/pics/grey_03.png" width="34" height="34" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td background="grey_tpl/pics/grey_04.png" width="35"><img src="grey_tpl/pics/grey_04.png" width="35" height="20" border="0" alt=""></td>
+   <td width="100%" background="grey_tpl/pics/grey.png">
+
+ &nbsp;
+</td>
+   <td background="grey_tpl/pics/grey_06.png" width="19"><img src="grey_tpl/pics/grey_06.png" width="34" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td width="35"><img src="grey_tpl/pics/grey_07.png" width="35" height="23" border="0" alt=""></td>
+   <td width="100%" background="grey_tpl/pics/grey_08.png"><img src="grey_tpl/pics/grey_08.png" width="25" height="23" border="0" alt=""></td>
+   <td width="34"><img src="grey_tpl/pics/grey_09.png" width="34" height="23" border="0" alt=""></td>
+  </tr>
+</table>
+	</td>
+  </tr>
+</table>
+</form>
+
+</body>

@@ -1,0 +1,475 @@
+|=|ErrorFilename :=: Image with that filename already exist. Please rename your file!
+|=|Filesizes :=: The size of a file exceeds 200 kb and should be in expansion .jpg
+|=|Filesizew :=: The size of a file exceeds 4 mb
+|=|Filetype :=: Not correct type of a file
+|=|Uploaderror :=: Upload file error
+|=|Totalingallery :=: Total images in galleries
+|=|Comment :=: Comment :
+|=|Author :=: Author :
+|=|File :=: File :
+|=|Date :=: Date :
+|=|Addimage :=: Add image
+|=|UWallp :=: Upload Wallpaper
+|=|UScreen :=: Upload Screenshot
+|=|wallp :=: Wallpapers
+|=|screen :=: Screenshots
+|=|GallWalp :=: Wallpapers gallery
+|=|GallScreen :=: Screenshots gallery
+|=|charcreate_invalidname :=: Error, Name unvalid (You have to pick a name for your character). Try again. <br />Redicting.. Please wait.
+|=|charcreate_nameinuse :=: Error, Name unvalid (Name already in use). Try again. <br />Redirecting.. Please wait.
+|=|charcreate_loggedin :=: Error, your account is already logged in. Please log out before using this future.<br />Redicting.. Please wait.
+|=|charcreate_charcreated :=: <h1>Congratulations</h1>, your character was created. You can now log in and play on it. Enjoy.<br />Redirecting...</td></tr></table>
+|=|charcreate_nameissymbols :=: The name consists of characters that is not allowed.<br />Redicting...
+|=|charcreate_underconstruction :=: This Class and race is currently beeing worked on, expect it to be up as soon as possible<br />Redicting...
+|=|charcreate_tomanychars :=: You have to many characters on your account, please log in and delete a character to be able to create another one at the account management.
+|=|charcreate_cannotcreatemorechars :=: You can not create anymore characters!
+|=|charcreate :=: Copy Character
+|=|module_ah :=: Auction House
+|=|ah_itemclass :=: Type
+|=|ah_itemname :=: Item
+|=|ah_quantity :=: Qty.
+|=|ah_seller :=: Seller
+|=|ah_time :=: Time
+|=|ah_buyer :=: Buyer
+|=|ah_currentbid :=: Current Bid
+|=|ah_buyout :=: Buyout Price
+|=|ah_auctionhouse :=: Auction House
+|=|ah_reset :=: (reset)
+|=|ah_hours :=: h
+|=|ah_minutes :=: m
+|=|ah_seconds :=: s
+|=|ah_expired :=: Expired
+|=|ah_sortbyquality :=: (sort by quality)
+|=|reset_succ_secretq :=: You just reset your secret questions. Please note that its recomended to have secret questions to your account.
+|=|not_require_loggedin :=: You need to be logged out to use this function.
+|=|require_loggedin :=: You need to be logged in to use this function.
+|=|intro_account_restore :=: You forgot your password!? When we said "keep it secret, keep it safe" we didnt mean for you to take it this far. For future reference, forgetting your password completely is just a bit too secret to be practical. Well, no worries. Well try to get it back for you. Start by entering your Account Name into the box below. If youve forgotten your Account Name as well, contact us by the forums or in PM. Please note that you have to know your 2 account secret questions.
+|=|restore_pass_ok :=: Your details has been changed please look below to see your new password. Its recomended to change the password fast!
+|=|fail_restore_pass :=: Your details on password restore was not correct.
+|=|have_secretq :=: <font color='green'>Your recovery questions is SET!</font>
+|=|not_have_secretq :=: <font color='red'>You dont got secret questions, its reccomanded to set so you can recover your account!</font>
+|=|fail_change_secretq :=: The secret questions was not changed. Please read the information on how secret questions needs to be formed.
+|=|changed_secretq :=: You sucesfully changed your secret questions. Please remember them in-case you loose your password.
+|=|secretq1_info :=: Requirements for adding secret questions: <ul><li>Answer must be 4 character or more</li><li>Answer must not contain symbols</li><li>You must fil both answer and question fields</li></ul>
+|=|secretq2_info :=: Requirements for adding secret questions: <ul><li>Answer must be 4 character or more</li><li>Answer must not contain symbols</li><li>You must fil both answer and question fields</li></ul>|=|secretq2 :=: Secret Question 2
+|=|secretq1 :=: Secret Question 1
+|=|agreeement_detailschange :=: You agree that you are the owner of this account.
+|=|accountmanage_important :=: Password and E-mail settings.
+|=|accountmanange_intro :=: Welcome to account management here you can edit all your settings.
+|=|START_NEW_PROJECT :=: START NEW PROJECT. This is just a dummy.
+|=|yes :=: Yes
+|=|no :=: No
+|=|mainpage :=: Main
+|=|news :=: News
+|=|news_archive :=: News archive
+|=|last_news :=: Latest news
+|=|account_create :=: New account
+|=|account_activate :=: Activate account
+|=|account :=: Account
+|=|account_manage :=: My account
+|=|userlist :=: Userlist
+|=|realm_status :=: Realm status
+|=|retrieve_pass :=: Restore Password
+|=|contact :=: Contacts
+|=|honor :=: Honor
+|=|map :=: Map
+|=|players_online :=: Players online
+|=|bugs :=: Bug tracker
+|=|files :=: Files
+|=|bugtracker :=: Notification about bugs
+|=|static_docs :=: Static documents
+|=|forums :=: Forums
+|=|forums_support :=: Support Forums
+|=|gmlist :=: In-Game Support
+|=|activation :=: Activation
+|=|forbiden :=: Forbidden
+|=|admin_panel :=: Admin panel
+|=|dochange :=: Change
+|=|dodelete :=: Delete
+|=|doedit :=: Edit
+|=|doreset :=: Reset
+|=|doupdate :=: Update
+|=|docreate :=: Create
+|=|youhavenorights :=: You have no rights to view this page !
+|=|pagegenerated :=:  Page generated in 
+|=|forgetpass :=: Forget pass ?
+|=|register :=: Register
+|=|login :=: Login
+|=|logout :=: Logout
+|=|profile :=: Profile
+|=|enter_as :=: You enter as
+|=|newpms :=: new messages
+|=|username :=: Username
+|=|pass :=: Password
+|=|email :=: Email
+|=|select_name :=: Select name
+|=|up :=: Up
+|=|down :=: Down
+|=|author :=: Author
+|=|type :=: Type
+|=|title :=: Title
+|=|text :=: Text
+|=|add :=: Add
+|=|back :=: Back
+|=|time :=: Time
+|=|posted :=: Posted
+|=|close :=: Close
+|=|open :=: Open
+|=|edit :=: edit
+|=|delete :=: delete
+|=|format :=: Format
+|=|size :=: Size
+|=|download :=: Download
+|=|upload :=: Upload
+|=|file :=: File
+|=|characters :=: Characters
+|=|items :=: Items
+|=|editor_bold :=: Bold
+|=|editor_italic :=: Italic
+|=|editor_underline :=: Underline
+|=|editor_strikethrough :=: Strikethrough
+|=|editor_pagebreak :=: Horizontal line
+|=|editor_image :=: Image
+|=|editor_link :=: Link
+|=|editor_email :=: Email
+|=|editor_fontcolor :=: Font color
+|=|editor_code :=: Code
+|=|editor_quote :=: Quote
+|=|editor_jusleft :=: Justify left
+|=|editor_juscenter :=: Justify center
+|=|editor_jusright :=: Justify right
+|=|editor_preview :=: Preview
+|=|editor_clear :=: Clear
+|=|editor_backtoedit :=: Back to editing
+|=|editor_send :=: Send
+|=|uploaddblclk :=: Double click to insert
+|=|site_config :=: Site settings
+|=|realms_manage :=: Realms
+|=|components_manage :=: Components
+|=|users_manage :=: Users
+|=|regkeys_manage :=: Reg keys
+|=|forums_manage :=: Forums
+|=|langs_manage :=: Languages
+|=|news_manage :=: Edit News
+|=|commands_manage :=: Edit (InGame)commands
+|=|chat_manage :=: Configurate chat
+|=|categories :=: Categories
+|=|order :=: order
+|=|recount :=: recount topics/posts
+|=|hide :=: Hide
+|=|show :=: Show
+|=|l_name :=: Name
+|=|l_desc :=: Desc
+|=|donewforum :=: Create new forum
+|=|donewcat :=: Create new category
+|=|l_newkeys :=: Enter keys number (1-300) 
+|=|l_delkey :=: Delete key
+|=|l_delkey_id :=: by Id
+|=|l_delkey_name :=: or by Key
+|=|editing :=: Editing
+|=|sure_q :=: Are you sure ?
+|=|change_pass_succ :=: Changing password passed successfully.
+|=|doretrieve_pass :=: Retrieve password
+|=|retrieve_pass_succ :=: Password successfully send to your email.
+|=|retrieve_pass_fail :=: Wrong account/email.
+|=|email_retrieve_pass :=: This is your password: %s | Please, dont forget it in future.
+|=|post_pages :=: pages
+|=|all :=: All
+|=|user_name :=: User name
+|=|personal_message :=: Personal message
+|=|pers_mess :=: PM
+|=|date_reg :=: Date of registration
+|=|viewedit_profile :=: View/Edit profile
+|=|homepage :=: WWW
+|=|active_ban :=: Active/Ban
+|=|max_accounts_per_ip :=: Max accounts per IP (0-unlimited)
+|=|posts_per_page :=: Posts per page (forum)
+|=|topics_per_page :=: Topics per page (forum)
+|=|users_per_page :=: Users per page
+|=|posts_per_star1 :=: Min posts for 1 rank
+|=|posts_per_star2 :=: Min posts for 2 rank
+|=|posts_per_star3 :=: Min posts for 3 rank
+|=|posts_per_star4 :=: Min posts for 4 rank
+|=|posts_per_star5 :=: Min posts for 5 rank
+|=|site_title :=: Site title
+|=|site_encoding :=: Site encoding
+|=|site_cookie :=: Site Cookies name
+|=|site_email :=: Site email address ("from")
+|=|smtp_adress :=: smtp server
+|=|smtp_username :=: smtp server - login
+|=|smtp_password :=: smtp server - password
+|=|max_avatar_size :=: Max avatar resolution (WxH px)
+|=|max_avatar_file :=: Max avatar file size (bytes)
+|=|change_email :=: Change e-mail
+|=|change_pass :=: Change password
+|=|change_template :=: Allow users to change template (1-yes/0-no)
+|=|req_reg_key :=: Require key for register (1-yes/0-no)
+|=|req_reg_act :=: Require account activation through email (1-yes/0-no)
+|=|req_reg_invite :=: Switch On invitation system/inv keys per acc (like gmail) (0-disabled) | Require "account activation"&"key for register" 
+|=|default_component :=: Default component (frontpage)
+|=|avatar_path :=: Path to avatar's directory
+|=|smiles_path :=: Path to smile's directory
+|=|debuginfo :=: Show debug messages (1-yes/0-no)
+|=|onlinelist_on :=: Switch on online list (1-yes/0-no)
+|=|reg_key :=: Registration key
+|=|bad_reg_key :=: You did not provide valid key
+|=|reg_acclimit :=: You can't register more accounts for that IP
+|=|cpass :=: Confirm Password
+|=|reg_checklogin :=: Enter login from %d to %d characters (latin characters & numbers only)
+|=|reg_checkloginex :=: Such login already exists
+|=|reg_checkemail :=: Enter valid e-mail
+|=|reg_checkemailex :=: Such e-mail already exists
+|=|reg_checkpass :=: Enter password from %d to %d characters
+|=|reg_checkcpass :=: Passwords do not coincide
+|=|accediting :=: Account management
+|=|gmlevel :=: Level of the access
+|=|viewcharacter :=: View character
+|=|warn_email :=: Without existing e-mail you can't register. It will send mail with key of the activations.
+|=|reg_succ :=: Registration successful, now you may enter.
+|=|ref_fail :=: Registration failed
+|=|act_succ :=: Activation succesful, now you may enter.
+|=|bad_act_key :=: Wrong activation key.
+|=|email_sent_act :=: On your e-mail sent letter with activation key.
+|=|hideemail :=: Hide e-mail?
+|=|notselected :=: Not selected
+|=|hideprofile :=: Hide profile?
+|=|gender :=: Gender
+|=|male :=: Man
+|=|female :=: Woman
+|=|icq :=: ICQ
+|=|wherefrom :=: From
+|=|avatar :=: Avatar
+|=|delavatar :=: Delete?
+|=|maxavatarsize :=: Maximum size of file
+|=|maxavatarres :=: Maximum size of picture
+|=|uploadavatar :=: Upload avatar
+|=|signature :=: Signature
+|=|reset :=: Reset
+|=|theme :=: Theme
+|=|change_mail :=: Changing email passed successfully.
+|=|bad_mail :=: Bad email
+|=|change_pass_short :=: Password too short.
+|=|email_sent_keys :=: %d new invitation keys have been sent to your email.
+|=|agree :=: Agree
+|=|disagree :=: Not agree
+|=|rules_agreement :=: Rules & Agreement
+|=|next :=: Next
+|=|inbox :=: Inbox
+|=|outbox :=: Outbox
+|=|mark :=: Mark
+|=|post_all :=: All
+|=|post_none :=: None
+|=|post_read :=: Read
+|=|post_for :=: For
+|=|post_from :=: From
+|=|post_reply :=: Reply
+|=|post_reply_to :=: Reply to 
+|=|post_subj :=: Subject
+|=|post_view :=: Reading message
+|=|list_users :=: List of the users
+|=|view_profile :=: View profile
+|=|personal_messages :=: Personal messages
+|=|delete_marked :=: Delete marked
+|=|no_such_addr :=: No such addressee
+|=|emailtext_inv_keys :=: This is your invitation keys: %s You can use them to register more accounts or share with other people.
+|=|write :=: Write
+|=|messages :=: Messages
+|=|newmessages :=: [New]
+|=|newmessage :=: New
+|=|lastreplyin :=: Last reply in
+|=|from :=: from
+|=|hidden :=:  [hidden]
+|=|today_at :=: Today at 
+|=|yesterday_at :=: Yesterday at 
+|=|l_theme1 :=: topic
+|=|l_theme2 :=: topics
+|=|l_theme3 :=: topics
+|=|l_theme4 :=: topic
+|=|l_post1 :=: post
+|=|l_post2 :=: posts
+|=|l_post3 :=: posts
+|=|replies :=: Replies
+|=|views :=: Views
+|=|lastpost :=: Last reply
+|=|lastpostby :=: by 
+|=|subject :=: Subject
+|=|newtopic :=: New topic
+|=|markread :=: Mark as read
+|=|sticky :=: Sticky
+|=|closed :=: Closed
+|=|quote :=: quote
+|=|reply :=: reply
+|=|smtgtosay :=:  Have something to say ?
+|=|dostick :=: Stick
+|=|dounstick :=: Unstick
+|=|doopen :=: Open
+|=|doclose :=: Close
+|=|newpost :=: New post
+|=|edittopic :=: Topic editing
+|=|editpost :=: Post editing
+|=|l_subject :=: Topic name
+|=|server :=: Server
+|=|realms_status :=: Realms status
+|=|choose_realm :=: Choose Your Realm
+|=|choose_faction :=: Choose Your Faction
+|=|choose_realmfaction :=: Click here to select your Realm and Faction
+|=|standing :=: Standing
+|=|rank :=: Rank
+|=|name :=: Name
+|=|charname :=: Character Name
+|=|guild :=: Guild
+|=|guildname :=: Guild Name
+|=|level :=: Level
+|=|level_short :=: Lvl
+|=|h_kills :=: Honorable Kills
+|=|dh_kills :=: Dishonorable Kills
+|=|rating :=: Rating
+|=|players_all :=: All Players
+|=|lifetime_kills :=: Lifetime Kills
+|=|location :=: Location
+|=|acc_create_rules :=: <p aling="left" class="header_1"> Rules: </p> <font color="red"><b>Players forbid:</b> </font><br><li> Cheating or hacking<br><li> Abuse other players<br><li> Asking GMs for items (only ask when some quest is bugged)<br><font color="red"><b>Players should:</b> </font><br><li>  Be friendly<br><li>  Report Bugs
+|=|realmstatus_desc :=: This page lists all available World of Warcraft Realms as well as the status of each.  A Realm can be listed as either <img src="./templates/offlike/images/uparrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(35, 67, 3);">Up</b> or <img src="./templates/offlike/images/downarrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(102, 13, 2);">Down</b>. Messages related to Realm status and scheduled maintenance will be posted in the <a href="index.php?n=forum">Realm Status Forum</a>. Let us apologize in advance if your Realm is listed as down. Chances are we're working diligently to bring it back online as quickly as possible.
+|=|inventory :=: Inventory
+|=|attachs_path :=: Path to attachs directory
+|=|max_attachs_size :=: Space for attachs per each user
+|=|allowed_attachs :=: Alowed attachs extentions
+|=|max_file_size :=: Max file size
+|=|allowed_ext :=: Allowed extentions
+|=|paste_to_message :=: Add to message
+|=|download_times :=: Downloads
+|=|commands :=: Commands
+|=|chars :=: Characters
+|=|playermap :=: Playermap
+|=|online :=: are online
+|=|who :=: Who
+|=|where :=: Where
+|=|when :=: When
+|=|whoisonline :=: Who is online
+|=|si_status :=: Realmstatus
+|=|si_ip :=: ServerIP
+|=|si_type :=: Type
+|=|si_lang :=: Language
+|=|si_pop :=: Population
+|=|si_acc :=: Accounts
+|=|si_chars :=: Characters
+|=|si_on :=: Online
+|=|si_regrate :=: Regeneration rates
+|=|si_regrate_health :=: Health
+|=|si_regrate_mana :=: Mana
+|=|si_droprate :=: Drop rates
+|=|si_droprate_items :=: Items
+|=|si_droprate_money :=: Money
+|=|si_exprate :=: Experience rates
+|=|si_exprate_kill :=: Kill
+|=|si_exprate_quest :=: Quest
+|=|si_exprate_explore :=: Explore
+|=|si_restrate :=: Resting points grow rates
+|=|si_restrate_city :=: City or Tavern
+|=|si_restrate_ingame :=: In Game
+|=|si_restrate_wild :=: In wilderness
+|=|si_skillvalue :=: Skill chance values
+|=|si_skillvalue_orange :=: orange
+|=|si_skillvalue_yellow :=: yellow
+|=|si_skillvalue_green :=: green
+|=|si_skillvalue_grey :=: grey
+|=|quicklink1 :=: Account Creation
+|=|quicklink2 :=: Account Management
+|=|quicklink3 :=: Realm Status
+|=|quicklink4 :=: FAQ Site
+|=|quicklink6 :=: Tree of Talents
+|=|quicklink7 :=: InGame Commands
+|=|quicklink8 :=: Player Map
+|=|talent_index :=: Index of Tree of Talens
+|=|talent_summary :=: Summary
+|=|talent_print :=: Printable version
+|=|talent_import :=: Import from Blizzard calculator
+|=|chat :=: Chat
+|=|choose_lang :=: Choose a language
+|=|context_menu :=: Context menu
+|=|teamspeak :=: Teamspeak
+|=|news_add :=: Add News
+|=|ts_display :=: Teamspeakstatus on or off (0=off, 1=on)
+|=|chat_display :=: Chat on or off (0=off 1=on)
+|=|ts_ip :=: Teamspeak IP Adress
+|=|ts_port_udp :=: Teamspeak UDP Port
+|=|chat_adminpass :=: Chat Adminpassword
+|=|banner_display :=: Banner on or off (0=off, 1=on)
+|=|site_register :=: Register on or off (0=off, 1=on)
+|=|msn :=: MSN
+|=|Alliance :=: Alliance
+|=|Horde :=: Horde
+|=|race :=: Race
+|=|Human :=: Human
+|=|Dwarf :=: Dwarf
+|=|Nightelf :=: Night Elf
+|=|Gnome :=: Gnome
+|=|Orc :=: Orc
+|=|Tauren :=: Tauren
+|=|Troll :=: Troll
+|=|Undead :=: Undead
+|=|class :=: Class
+|=|Warrior :=: Warrior
+|=|Paladin :=: Paladin
+|=|Hunter :=: Hunter
+|=|Rogue :=: Rogue
+|=|Priest :=: Priest
+|=|Warlock :=: Warlock
+|=|Druid :=: Druid
+|=|Shaman :=: Shaman
+|=|Mage :=: Mage
+|=|Bloodelf :=: Blood Elf
+|=|Dranei :=: Dranei
+|=|admin_forum :=: Forum
+|=|ar1 :=: Private
+|=|ar2 :=: Caporal
+|=|ar3 :=: Sergeant
+|=|ar4 :=: Master Sergeant
+|=|ar5 :=: Sergeant Major
+|=|ar6 :=: Knight
+|=|ar7 :=: Knight-Lieutenant
+|=|ar8 :=: Knight-Captain
+|=|ar9 :=: Knight-Champion
+|=|ar10 :=: Lieutenant-Commander
+|=|ar11 :=: Commander
+|=|ar12 :=: Marshal
+|=|ar13 :=: Field Marshal
+|=|ar14 :=: Grand Marshal
+|=|hr1 :=: Scout
+|=|hr2 :=: Grunt
+|=|hr3 :=: Sergeant
+|=|hr4 :=: Senior-Sergeant
+|=|hr5 :=: First-Sergeant
+|=|hr6 :=: Stone Guard
+|=|hr7 :=: Blood Guard
+|=|hr8 :=: Legionnaire
+|=|hr9 :=: Centurion
+|=|hr10 :=: Champion
+|=|hr11 :=: Lieutenant General
+|=|hr12 :=: General
+|=|hr13 :=: Warlord
+|=|hr14 :=: High Warlord
+|=|gm_online :=: Online GMs
+|=|faq :=: FAQ
+|=|lastcomment :=: last comment
+|=|isonline :=: User active on Web Server
+|=|areonline :=: Users active on Web Server
+|=|statistic :=: Statistic
+|=|page :=: Page
+|=|newsubject :=: New subject
+|=|notreadsubject :=: Subject not read
+|=|readsubject :=: Subject read
+|=|nonewpost :=: There is no new post
+|=|postclose :=: Forum close
+|=|howtoplay :=: How To Play
+|=|media :=: Media
+|=|screenshots :=: Screenshots
+|=|gallery :=: Art
+|=|downloads :=: Downloads
+|=|up_notallowed :=: You are not allowed to upload files!
+|=|up_banned :=: Reason: Banned
+|=|vote_success :=: Voting successful!
+|=|vote_alreadyvoted :=: You have already voted!
+|=|vote_image :=: Vote for this image
+|=|quicklinks :=: Quicklinks
+|=|useronhp :=: Users on Homepage
+|=|serverinfo :=: Server Information

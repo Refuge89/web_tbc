@@ -1,0 +1,564 @@
+|=|ErrorFilename :=: Image with that filename already exist. Please rename your file!
+|=|Filesizes :=: The size of a file exceeds 200 kb and should be in expansion .jpg
+|=|Filesizew :=: The size of a file exceeds 4 mb
+|=|Filetype :=: Not correct type of a file
+|=|Uploaderror :=: Upload file error
+|=|Totalingallery :=: Total images in galleries
+|=|Comment :=: Comment :
+|=|Author :=: Author :
+|=|File :=: File :
+|=|Date :=: Date :
+|=|Addimage :=: Add image
+|=|UWallp :=: Upload Wallpaper
+|=|UScreen :=: Upload Screenshot
+|=|wallp :=: Wallpapers
+|=|screen :=: Screenshots
+|=|GallWalp :=: Wallpapers gallery
+|=|GallScreen :=: Screenshots gallery
+|=|charcreate_invalidname :=: Error, Name unvalid (You have to pick a name for your character). Try again. <br />Redicting.. Please wait.
+|=|charcreate_nameinuse :=: Error, Name unvalid (Name already in use). Try again. <br />Redirecting.. Please wait.
+|=|charcreate_loggedin :=: Error, your account is already logged in. Please log out before using this future.<br />Redicting.. Please wait.
+|=|charcreate_charcreated :=: <h1>Congratulations</h1>, your character was created. You can now log in and play on it. Enjoy.<br />Redirecting...</td></tr></table>
+|=|charcreate_nameissymbols :=: The name consists of characters that is not allowed.<br />Redicting...
+|=|charcreate_underconstruction :=: This Class and race is currently beeing worked on, expect it to be up as soon as possible<br />Redicting...
+|=|charcreate_tomanychars :=: You have to many characters on your account, please log in and delete a character to be able to create another one at the account management.
+|=|charcreate_cannotcreatemorechars :=: You can not create anymore characters!
+|=|module_ah :=: Auction House
+|=|ah_itemclass :=: Type
+|=|ah_itemname :=: Item
+|=|ah_quantity :=: Qty.
+|=|ah_seller :=: Seller
+|=|ah_time :=: Time
+|=|ah_buyer :=: Buyer
+|=|ah_currentbid :=: Current Bid
+|=|ah_buyout :=: Buyout Price
+|=|ah_auctionhouse :=: Auction House
+|=|ah_reset :=: (reset)
+|=|ah_hours :=: h
+|=|ah_minutes :=: m
+|=|ah_seconds :=: s
+|=|ah_expired :=: Expired
+|=|ah_sortbyquality :=: (Sortare dupa calitate)
+|=|reset_succ_secretq :=: Tocmai vati resetat intrebarea secreta. Va rog retineti ca e recomandat sa aveti o intrebare secreta la contul d-voastra.
+|=|not_require_loggedin :=: Trebuie sa dati logout sa folositi aceasta optiune.
+|=|require_loggedin :=: Trebuie sa fiti logat sa folositi aceasta optiune.
+|=|intro_account_restore :=: Vati uitat parola!? Cand am spus "Pastrati-o secreta, tineti-o bine" Nu am dorit sa ajungem la problema asta. Pentru viitor, Nu e indicat sa va pierdeti parola. Nu va faceti griji. Osa incercam sa o recuperam. Introduceti numele contului d-vostra in casuta de mai jos. Daca vati uitat si numele la cont, Contactatine pe forum sau un mesaj privat. Notati ca trebuie sa stiti raspunsul la doua intrebari secrete.
+|=|restore_pass_ok :=: Optiunile d-voastra au fost schimbate va rugam verificati noua parola. E recomandat sa va schimbati parola rapid!
+|=|fail_restore_pass :=: Optiunile pentru a recapata parola au fost incorecte.
+|=|have_secretq :=: <font color='green'>Intrebarile pentru a recupera parola au fost setate!</font>
+|=|not_have_secretq :=: <font color='red'>Nu aveti intrebari secrete, E recomandat sa le setati sa puteti recupera contul!</font>
+|=|fail_change_secretq :=: Intrebarea secreta nu sa schimbat. Va rog cititi informatiile despre cum se seteaza intrebarile secrete.
+|=|changed_secretq :=: Intrebarea secreta a fost schimbata cu succes. Please remember them in-case you loose your password.
+|=|secretq1_info :=: Necesar pentru a adauga o intrebare secreta: <ul><li>Raspunsul trebuie sa contina cel putin 4 caractere</li><li>Raspunsul nu trebuie sa contina simboluri</li><li>Trebuie sa completati amandoua raspunsurile</li></ul>
+|=|secretq2_info :=: Necesar pentru a adauga o intrebare secreta: <ul><li>Raspunsul trebuie sa contina cel putin 4 caractere</li><li>Raspunsul nu trebuie sa contina simboluri</li><li>Trebuie sa completati amandoua raspunsurile</li></ul>|=|secretq2 :=: Intrebarea secreta 2
+|=|secretq1 :=: Intrebarea secreta  1
+|=|agreeement_detailschange :=: Sunteti deacord ca acest cont va apartine?.
+|=|accountmanage_important :=: Setari pentru E-mail si parola.
+|=|accountmanange_intro :=: Bine ati venit la panoul administratorului aici puteti modifica toate setarile.
+|=|START_NEW_PROJECT :=: PORNITI UN NOU PROIECT. Acesta este un test.
+|=|yes :=: Да
+|=|no :=: Нет
+|=|mainpage :=: Главная
+|=|news :=: Новости
+|=|news_archive :=: Архив новостей
+|=|last_news :=: Последние новости
+|=|account_create :=: Создать аккаунт
+|=|account_activate :=: Активировать аккаунт
+|=|account :=: Аккаунт
+|=|account_manage :=: Мой Аккаунт
+|=|userlist :=: Пользователи
+|=|realm_status :=: Статус реалма
+|=|retrieve_pass :=: Восст. пароля
+|=|contact :=: Контакты
+|=|honor :=: Честь PVP
+|=|map :=: Карта
+|=|players_online :=: Игроки онлайн
+|=|files :=: Файлы
+|=|bugtracker :=: Уведомления о багах и недоработках
+|=|static_docs :=: Static documents
+|=|forums :=: Форумы
+|=|forums_support :=: Техподдержка
+|=|gmlist :=: Помощь в игре
+|=|activation :=: Активация
+|=|forbiden :=: Запрещено
+|=|admin_panel :=: Админка
+|=|dochange :=: Изменить
+|=|dodelete :=: Удалить
+|=|doedit :=: Редактировать
+|=|doreset :=: Сбросить
+|=|doupdate :=: Обновить
+|=|docreate :=: Создать
+|=|youhavenorights :=: У вас нет прав для просмотра этой страницы !
+|=|pagegenerated :=: Cтраница сформированна за 
+|=|forgetpass :=: Забыли пароль ?
+|=|register :=: Регистрация
+|=|login :=: Вход
+|=|logout :=: Выход
+|=|profile :=: Профиль
+|=|enter_as :=: Вы вошли как
+|=|newpms :=: новых ЛС
+|=|username :=: Логин
+|=|pass :=: Пароль
+|=|email :=: Email
+|=|select_name :=: Выберите имя
+|=|up :=: Вверх
+|=|down :=: Вниз
+|=|author :=: Автор
+|=|type :=: Тип
+|=|title :=: Заголовок
+|=|text :=: Текст
+|=|add :=: Добавить
+|=|back :=: Назад
+|=|time :=: Время
+|=|posted :=: Добавлено
+|=|close :=: Закрыть
+|=|open :=: Открыть
+|=|edit :=: редактировать
+|=|delete :=: удалить
+|=|format :=: Формат
+|=|size :=: Размер
+|=|download :=: Скачать
+|=|upload :=: Загрузить
+|=|file :=: Файл
+|=|characters :=: Персонажи
+|=|items :=: Предметы
+|=|editor_bold :=: Жирный
+|=|editor_italic :=: Наклонный
+|=|editor_underline :=: Подчеркнутый
+|=|editor_strikethrough :=: Зачеркнутый
+|=|editor_pagebreak :=: Горизонтальная черта
+|=|editor_image :=: Картинка
+|=|editor_link :=: Ссылка
+|=|editor_email :=: Email
+|=|editor_fontcolor :=: Цвет текста
+|=|editor_code :=: Код
+|=|editor_quote :=: Цитата
+|=|editor_jusleft :=: По левому краю
+|=|editor_juscenter :=: По центру
+|=|editor_jusright :=: По правому краю
+|=|editor_preview :=: Предпросмотр
+|=|editor_clear :=: Очистить
+|=|editor_backtoedit :=: Вернуться к редактированию
+|=|editor_send :=: Отправить
+|=|uploaddblclk :=: Двойной клик для вставки
+|=|site_config :=: Настройки сайта
+|=|realms_manage :=: Реалмы
+|=|menu :=: Настройка меню
+|=|components_manage :=: Компоненты
+|=|users_manage :=: Пользователи
+|=|regkeys_manage :=: Управление ключами
+|=|forums_manage :=: Форумы
+|=|langs_manage :=: Управление языками
+|=|categories :=: Категории
+|=|order :=: порядок
+|=|recount :=: Пересчитать темы/сообщения
+|=|hide :=: Спрятать
+|=|show :=: Показать
+|=|l_name :=: Название
+|=|l_desc :=: Описание
+|=|donewforum :=: Создать новый форум
+|=|donewcat :=: Создать новую категорию
+|=|l_newkeys :=: Введите кол-во ключей (1-300) 
+|=|l_delkey :=: Удалить ключ
+|=|l_delkey_id :=: по номеру
+|=|l_delkey_name :=: или сам ключ
+|=|editing :=: Редактирование
+|=|sure_q :=: Точно ?
+|=|change_pass_succ :=: Смена пароля прошла успешно.
+|=|doretrieve_pass :=: Восстановить пароль
+|=|retrieve_pass_succ :=: Пароль успешно отправлен на ваш email.
+|=|retrieve_pass_fail :=: Неправильные логин/email.
+|=|email_retrieve_pass :=: Это ваш пароль: %s | Пожалуйста, не забывайте его в будущем.
+|=|post_pages :=: Страницы
+|=|all :=: Все
+|=|user_name :=: Имя пользователя
+|=|personal_message :=: Личное сообщение
+|=|pers_mess :=: ЛС
+|=|date_reg :=: Дата регистрации
+|=|viewedit_profile :=: Просмотр/Редактирование профиля
+|=|homepage :=: WWW
+|=|active_ban :=: Активен/Бан
+|=|max_accounts_per_ip :=: Макс кол-во акков с одного IP (0-неограничено)
+|=|posts_per_page :=: Сообщений на страницу (форум)
+|=|topics_per_page :=: Тем на страницу (форум)
+|=|users_per_page :=: Пользователей на страницу
+|=|posts_per_star1 :=: Мин сообщений для 1 ранга
+|=|posts_per_star2 :=: Мин сообщений для 2 ранга
+|=|posts_per_star3 :=: Мин сообщений для 3 ранга
+|=|posts_per_star4 :=: Мин сообщений для 4 ранга
+|=|posts_per_star5 :=: Мин сообщений для 5 ранга
+|=|site_title :=: Название сайта
+|=|site_encoding :=: Кодировка сайта
+|=|site_cookie :=: Имя кукисов
+|=|site_email :=: Обратный адрес сайта
+|=|smtp_adress :=: smtp сервер
+|=|smtp_username :=: smtp сервер - login
+|=|smtp_password :=: smtp сервер - password
+|=|max_avatar_size :=: Макс разрешение аватара (ШиринаxВысота пикс)
+|=|max_avatar_file :=: Макс размер аватара (bytes)
+|=|change_email :=: Сменить имэйл
+|=|change_pass :=: Сменить пароль
+|=|change_template :=: Разрешить юзерам выбирать шаблон (1-да/0-нет)
+|=|req_reg_key :=: Требовать ключ для регистрации (1-да/0-нет)
+|=|req_reg_act :=: Требовать активацию по email (1-да/0-нет)
+|=|req_reg_invite :=: Включить систему приглашений/Кол-во ключей для акка (как в gmail) (0-выключено) | Требуется "активация по email"и"ключ для регистрации"
+|=|default_component :=: Компонент по-умолчанию (frontpage)
+|=|avatar_path :=: Путь к папке аватар
+|=|smiles_path :=: Путь к папке смайлов
+|=|debuginfo :=: Показывать отладочные сообщения (1-да/0-нет)
+|=|onlinelist_on :=: Включить онлайн лист (1-да/0-нет)
+|=|reg_key :=: Регистрационный ключ
+|=|bad_reg_key :=: Введён неверный регистрационный ключ
+|=|reg_acclimit :=: Достигнут предел аккаунтов для вашего IP.
+|=|cpass :=: Повтор пароля
+|=|reg_checklogin :=: Введите логин от %d до %d символов (только цифры и латинские буквы)
+|=|reg_checkloginex :=: Такой логин уже существует
+|=|reg_checkemail :=: Введите валидный имэйл
+|=|reg_checkemailex :=: Такой имэйл уже существует
+|=|reg_checkpass :=: Введите пароль от %d до %d символов
+|=|reg_checkcpass :=: Пароли не совпадают
+|=|accediting :=: Редактирование
+|=|gmlevel :=: Уровень доступа
+|=|viewcharacter :=: Просмотр персонажа
+|=|warn_email :=: Обязательно указывайте настоящий Email!  На него будет отправлено письмо с ключем активации аккаунта.
+|=|reg_succ :=: Регистрация успешна, теперь вы можете выполнить вход.
+|=|ref_fail :=: Ошибка регистрации
+|=|act_succ :=: Активация успешна, теперь вы можете выполнить вход.
+|=|bad_act_key :=: Неправильный активационный ключ.
+|=|email_sent_act :=: На ваш email выслано письмо с ключем активации.
+|=|hideemail :=: Скрывать Email?
+|=|notselected :=: Не указан
+|=|hideprofile :=: Скрывать Профиль?
+|=|gender :=: Пол
+|=|male :=: Мужской
+|=|female :=: Женский
+|=|icq :=: ICQ
+|=|wherefrom :=: Откуда
+|=|avatar :=: Аватар
+|=|delavatar :=: Удалить ?
+|=|maxavatarsize :=: Макс размер файла
+|=|maxavatarres :=: макс размер картинки
+|=|uploadavatar :=: Загрузить аватар
+|=|signature :=: Подпись
+|=|reset :=: Сброс
+|=|theme :=: Тема оформления
+|=|change_mail :=: Смена имейла прошла успешно.
+|=|bad_mail :=: Неправильный email
+|=|change_pass_short :=: Пароль слишком короткий.
+|=|email_sent_keys :=: %d новых ключей было выслано на ваш email.
+|=|agree :=: Согласен
+|=|disagree :=: Не согласен
+|=|rules_agreement :=: Правила и соглашения
+|=|next :=: Далее
+|=|inbox :=: Входящие
+|=|outbox :=: Исходящие
+|=|mark :=: Отметить
+|=|post_all :=: Все
+|=|post_none :=: Никакие
+|=|post_read :=: Прочитанные
+|=|post_for :=: Для
+|=|post_from :=: От
+|=|post_reply :=: Ответить
+|=|post_reply_to :=: Ответ на 
+|=|post_subj :=: Тема
+|=|post_view :=: Просмотр сообщения
+|=|list_users :=: Список пользователей
+|=|view_profile :=: Просмотр профиля
+|=|personal_messages :=: Личные сообщения
+|=|delete_marked :=: Удалить отмеченные
+|=|no_such_addr :=: Нет такого адресата
+|=|emailtext_inv_keys :=: Это ваши пригласительные ключи: %s Вы можете использовать их для регистрации аккаунтов или поделиться с другими людьми.
+|=|write :=: Написать
+|=|messages :=: Сообщений
+|=|newmessages :=: [Новые]
+|=|newmessage :=: Новое
+|=|lastreplyin :=: Последний ответ в
+|=|from :=: от
+|=|hidden :=:  [скрытый]
+|=|today_at :=: Сегодня в 
+|=|yesterday_at :=: Вчера в 
+|=|l_theme1 :=: тема
+|=|l_theme2 :=: темы
+|=|l_theme3 :=: тем
+|=|l_theme4 :=: тему
+|=|l_post1 :=: сообщение
+|=|l_post2 :=: сообщения
+|=|l_post3 :=: сообщений
+|=|replies :=: Ответов
+|=|views :=: Просмотров
+|=|lastpost :=: Последний ответ
+|=|lastpostby :=: от 
+|=|subject :=: Тема
+|=|newtopic :=: Новая тема
+|=|markread :=: Отметить прочитанным
+|=|sticky :=: Прикрепленная
+|=|closed :=: Закрытая
+|=|quote :=: цитировать
+|=|reply :=: ответить
+|=|smtgtosay :=:  Есть что сказать ?
+|=|dostick :=: "Поднять"
+|=|dounstick :=: "Опустить"
+|=|doopen :=: Открыть
+|=|doclose :=: Закрыть
+|=|newpost :=: Новое сообщение
+|=|edittopic :=: Редактирование темы
+|=|editpost :=: Редактирование сообщения
+|=|l_subject :=: Заголовок
+|=|server :=: Сервер
+|=|realms_status :=: Статус реалмов
+|=|Alliance :=: Альянс
+|=|Horde :=: Орда
+|=|race :=: Расса
+|=|Human :=: Человек
+|=|Dwarf :=: Дварф
+|=|Nightelf :=: Ночной эльф
+|=|Gnome :=: Гном
+|=|Orc :=: Орк
+|=|Tauren :=: Таурен
+|=|Troll :=: Троль
+|=|Undead :=: Нежить
+|=|Dranei :=: Дреней
+|=|Bloodelf :=: Кровавый эльф
+|=|class :=: Класс
+|=|Warrior :=: Воин
+|=|Paladin :=: Паладин
+|=|Hunter :=: Охотник
+|=|Rogue :=: Рога
+|=|Priest :=: Жрец
+|=|Warlock :=: Колдун
+|=|Druid :=: Друид
+|=|Shaman :=: Шаман
+|=|Mage :=: Маг
+|=|choose_realm :=: Выберите реалм
+|=|choose_faction :=: Выберите фракцию
+|=|choose_realmfaction :=: Нажмите здесь для выбора реалма и фракции
+|=|standing :=: Позиция
+|=|rank :=: Ранк
+|=|name :=: Имя
+|=|charname :=: Имя персонажа
+|=|guild :=: Гильдия
+|=|guildname :=: Имя Гильдии
+|=|level :=: Уровень
+|=|level_short :=: Лвл
+|=|h_kills :=: Почетные убийства
+|=|dh_kills :=: Позорные убийства
+|=|rating :=: Рейтинг
+|=|players_all :=: Все игроки
+|=|lifetime_kills :=: Все убийства
+|=|location :=: Расположение
+|=|acc_create_rules :=: <p align="left" class="header_1"> Правила: </p> <font color="red"><b>Игрокам запрещено:</b> </font><br><li> Использовать ненормативную лексику в игре.<br><li> Оскорблять игроков и ущемлять право и человеческое    достоинство вне зависимости от пола, возраста, внешности и    национальности.<br><li> Создание персонажей, кланов, приписок членам клана,    именований животных и т.п. содержащих матерные слова или слова,    оскорбляющие человеческое достоинство, либо ущемляющие права других    игроков, а также содержащих слова <font><strong>GM, Game Master, Support, Administrator</strong></font>  и любые совпадающие с ними (на английском, русском и транслите). <br><li> Flood в чате (флад - многократное написание по одному слову в строчку, многократное повторение одной строки). <br><li> Использовать баги и недоработки сервера или любые другие    внешние программы и скрипты, взаимодействующие с серверной, либо с    клиентской частью игры.<br><li> Использование ботов или любых других внешних программ и скриптов автоматизирующих процесс игры.<br><li> Получение доступа к чужим аккаунтам.<br><li> Мошенничество.<br><li> Осуществлять прокупку\продажу\обмен игровых вещей,    персонажей, аккаунтов за реальные деньги (в том числе электронные    переводы) или вещи.<br><li> Внеигровые шантаж и угрозы ("Внеигровые" - с использованием аргументов, не имеющих отношения к игре).<br><font color="red"><b>Игрокам следует:</b> </font><br><li> Уведомлять администрацию о найденных багах/недоделках сервера<br><li> Обращаться к ГМу только по уважительной причине. 
+|=|realmstatus_desc :=: На этой странице вы видите список всех доступных реалмов World of Warcraft и их статус. Реалмы могут быть как  <img src="images/uparrow2.gif"> <b style="color: rgb(35, 67, 3);">Включены</b> так и  <img src="images/downarrow2.gif"> <b style="color: rgb(102, 13, 2);">Выключены</b>. Обьявления и новости сервера вы можете увидеть на <a href="index.php?n=forum">форуме</a>. Если сервер выключен - не волнуйтесь - ведутся работы и он скоро снова будет работать.
+|=|inventory :=: Инвентарь
+|=|newpass :=: Новый пароль
+|=|newemail :=: Новый Email
+|=|attachs_path :=: Путь к директории "Вложения"
+|=|max_attachs_size :=: Максимальный размер вложений
+|=|allowed_attachs :=: Разрешённые форматы вложений
+|=|attachs_path :=: Путь к директории "Вложения"
+|=|max_attachs_size :=: Максимальный размер вложений
+|=|allowed_attachs :=: Разрешённые форматы вложений
+|=|max_file_size :=: Макс размер файла
+|=|allowed_ext :=: Разрешенные форматы
+|=|paste_to_message :=: вставить в сообщение
+|=|download_times :=: Загрузок
+
+|=|talents :=: Калькулятор талантов
+
+|=|Filesizes :=: Размер файла не должен превышать 200 kb и должен быть с разширением .jpg
+|=|Filesizew :=: Размер файла не должен превышать 4 mb
+|=|Filetype :=: Неккоректный тип файла
+|=|Uploaderror :=: Ошибка загрузки файла
+|=|Totalingallery :=: Всего изображений в галлерее
+|=|Comment :=: Комментарий :
+|=|Author :=: Автор :
+|=|File :=: Файл :
+|=|Date :=: Дата :
+|=|Addimage :=: Добавить изображение
+|=|UWallp :=: Загрузить Обои
+|=|UScreen :=: Загрузить Скриншоты
+|=|wallp :=: Обои
+|=|screen :=: Скриншоты
+|=|GallWalp :=: Галлерея обоев
+|=|GallScreen :=: Галлерея скриншотов
+|=|menu :=: Опции меню
+|=|players_map :=: Карта
+|=|players_in_map :=: Игроки на кaрте
+|=|armor :=: Армор сетс
+|=|talant :=: Таланты
+|=|Guild :=: Гильдия
+|=|adminka :=: Админка
+|=|Player Map :=: Игроки на карте
+|=|statistic :=: Cтатистика сервера
+|=|bugs :=: Баги сервера
+|=|howtoplay :=: Как начать играть
+|=|Chars :=: Игроки сервера
+|=|talantss :=: Таланты
+|=|gm_online :=: Гм на сервере
+|=|commands :=: Команды
+|=|quicklink1 :=: Создать аккаунт
+|=|quicklink2 :=: Менеджер аккаунта
+|=|quicklink3 :=: Статус сервера
+|=|quicklink4 :=: FAQ / Как начать играть
+|=|quicklink6 :=: Как начинать играть?
+|=|quicklink7 :=: Команды
+|=|quicklink8 :=: Игроки на карте
+|=|commands :=: Команды
+|=|commands_manage :=: Редактировать (Игровые) команды
+|=|History :=: История
+|=|forumlinks :=: Главный форум
+|=|quicklinks :=: Информация
+|=|useronhp :=: Юзеров на сайте
+|=|serverinfo :=: Инфа о сервере
+|=|Availaible Commands(InGame) :=: Команды
+|=|si_status :=: Статус 
+|=|si_ip :=: IP Cepвера
+|=|si_type :=: Тип
+|=|si_lang :=: Язык
+|=|si_pop :=: Игроки
+|=|si_acc :=: Аккаунты
+|=|si_on :=: В игре
+|=|si_regrate :=: Регенерационные рейты
+|=|si_regrate_health :=: Здоровье
+|=|si_regrate_mana :=: Мана
+|=|si_droprate :=: Дроп рейты
+|=|si_droprate_items :=: Вещи
+|=|si_droprate_money :=: Деньги
+|=|si_exprate :=: Рейты экспы
+|=|si_exprate_kill :=: Убийства
+|=|si_exprate_quest :=: Квесты
+|=|si_exprate_explore :=: Карта
+|=|si_restrate :=: Очки отдыха
+|=|si_restrate_city :=: Городе или таверне
+|=|si_restrate_ingame :=: В игре
+|=|si_restrate_wild :=: Во время путешествия
+|=|si_skillvalue :=: Skill chance values
+|=|si_skillvalue_orange :=: оранжевый
+|=|si_skillvalue_yellow :=: Желтый
+|=|si_skillvalue_green :=: Зеленый
+|=|si_skillvalue_grey :=: Серый
+|=|playermap :=: Игроки на карте
+|=|vote_image :=: Проголоуйте за это изображение
+|=|vote_alreadyvoted :=: Вы уже голосовали
+|=|vote_success :=: Ваш голос учтен!
+|=|up_banned :=: Причина: Забанен
+|=|up_notallowed :=: У вас нет прав загружать файл
+|=|downloads :=: Загрузки
+|=|gallery :=: Галлерея
+|=|screenshots :=: Скриншоты
+|=|media :=: Медиа
+|=|postclose :=: Форум закрыт
+|=|nonewpost :=: Нет новых постов
+|=|readsubject :=: Уже прочтена
+|=|notreadsubject :=: Еще не прочтена
+|=|newsubject :=: Новая тема
+|=|page :=: Страница
+|=|areonline :=: Пользователей онлайн
+|=|isonline :=: Пользователь онлайн
+|=|lastcomment :=: Последний ответ
+|=|faq :=: Ч.А.В.О.
+|=|ar1 :=: Private
+|=|ar2 :=: Caporal
+|=|ar3 :=: Sergeant
+|=|ar4 :=: Master Sergeant
+|=|ar5 :=: Sergeant Major
+|=|ar6 :=: Knight
+|=|ar7 :=: Knight-Lieutenant
+|=|ar8 :=: Knight-Captain
+|=|ar9 :=: Knight-Champion
+|=|ar10 :=: Lieutenant-Commander
+|=|ar11 :=: Commander
+|=|ar12 :=: Marshal
+|=|ar13 :=: Field Marshal
+|=|ar14 :=: Grand Marshal
+|=|hr1 :=: Scout
+|=|hr2 :=: Grunt
+|=|hr3 :=: Sergeant
+|=|hr4 :=: Senior-Sergeant
+|=|hr5 :=: First Sergeant
+|=|hr6 :=: Stone Guard
+|=|hr7 :=: Blood Guard
+|=|hr8 :=: Legionnaire
+|=|hr9 :=: Centurion
+|=|hr10 :=: Champion
+|=|hr11 :=: Lieutenant General
+|=|hr12 :=: General
+|=|hr13 :=: Warlord
+|=|hr14 :=: High Warlord
+|=|admin_forum :=: Форум
+|=|msn :=: MSN
+|=|site_register :=: Регистер вкл или выкл (0=выкл, 1=вкл)
+|=|banner_display :=: Отображать или нет баннер (0=выкл, 1=вкл)
+|=|chat_adminpass :=: Пароль администратора для чата
+|=|ts_port_udp :=: UDP порт TeamSpeak'а
+|=|ts_ip :=: IP Teamspeak'а
+|=|chat_display :=: Чат отображать или нет (0=выкл, 1=вкл)
+|=|chat_display :=: Чат отображать или нет (0=выкл, 1=вкл)
+|=|ts_display :=: Отображать TeamSpeak или нет (0=выкл, 1=вкл)
+|=|news_add :=: Добавить Новости
+|=|teamspeak :=: TeamSpeak
+|=|context_menu :=: Контекстное меню
+|=|choose_lang :=: Выберите язык
+|=|chat :=: Чат
+|=|talent_import :=: Импортировать с Близзардовского калькулятора
+|=|talent_print :=: Версия для печати
+|=|talent_summary :=: Общее число очков
+|=|talent_index :=: Сброс
+|=|si_chars :=: Персонажи
+|=|whoisonline :=: Кто онлайн
+|=|when :=: Когда
+|=|where :=: Где
+|=|who :=: Кто
+|=|online :=: онлайн
+|=|show_creature_zone :=: Показать зону расположения существа
+|=|not_show_mocwx :=: Не показывать карту на неизвестного "NPC"
+|=|fade_limit :=: Запесей на страницу
+|=|wowd :=: Поиск по базе данных
+|=|chat_manage :=: Настроить Чат
+|=|news_manage :=: Редактировать новости
+|=|charcreate_invalidname :=: Error, Name unvalid (You have to pick a name for your character). Try again. <br />Redicting.. Please wait.
+|=|charcreate_nameinuse :=: Error, Name unvalid (Name already in use). Try again. <br />Redirecting.. Please wait.
+|=|charcreate_loggedin :=: Error, your account is already logged in. Please log out before using this future.<br />Redicting.. Please wait.
+|=|charcreate_charcreated :=: <h1>Congratulations</h1>, your character was created. You can now log in and play on it. Enjoy.<br />Redirecting...</td></tr></table>
+|=|charcreate_nameissymbols :=: The name consists of characters that is not allowed.<br />Redicting...
+|=|charcreate_underconstruction :=: This Class and race is currently beeing worked on, expect it to be up as soon as possible<br />Redicting...
+|=|charcreate_tomanychars :=: You have to many characters on your account, please log in and delete a character to be able to create another one at the account management.
+|=|charcreate_cannotcreatemorechars :=: You can not create anymore characters!
+|=|charcreate :=: Копировать персонажа
+|=|module_ah :=: Аукцион
+|=|ah_itemclass :=: Тип
+|=|ah_itemname :=: Вещь
+|=|ah_quantity :=: Кол-во
+|=|ah_seller :=: Продавец
+|=|ah_time :=: Время
+|=|ah_buyer :=: Покупатель
+|=|ah_currentbid :=: Предложение
+|=|ah_buyout :=: Выкупная цена
+|=|ah_auctionhouse :=: Аукцион
+|=|ah_reset :=: (обновить)
+|=|ah_hours :=: ч
+|=|ah_minutes :=: м
+|=|ah_seconds :=: с
+|=|ah_expired :=: Просрочено
+|=|ah_sortbyquality :=: (сортировать по качеству)
+|=|reset_succ_secretq :=: Удалить ваши секретные вопросы. Учтите что секретные вопросы желательны для сохранности вашего аккаунта.
+|=|not_require_loggedin :=: Вы должны выйти из пользователя чтобы использовать эту функцию.
+|=|require_loggedin :=: Вам необходимо войти чтобы использовать данную функцию.
+|=|intro_account_restore :=: Вы забыли ваш пароль!? Когда мы говорили "держать его в секрете, значит быть уверенным в его безопасности" мы не думали что все зайдет настолько далеко. На будущее, если вы забудете пароль, то желательно чтобы он был не только тайным но и практичным в использовании. Так, без паники. Мы попробуем вернуть его вам. Начнем с ввода аккаунта в поле для ввода. Если вы забыли имя вашего аккаунта, свяжитесь с нами через форум или напишите в личку. Пожалуйста помните вы должны знать 2 секретных слова для удачного востановления пароля.
+|=|restore_pass_ok :=: Ваши данные обновились, пожалуйста псмотрите и запомните ваш пароль. Мы рекомендуем поменять пароль как можно быстрее!
+|=|fail_restore_pass :=: Веденные данные не корректны для востановления пароля.
+|=|have_secretq :=: <font color='green'>Ваш секретный вопрос установлен!</font>
+|=|not_have_secretq :=: <font color='red'>У вас нет секретного вопроса , Мы рекомендуем установить его иначе востановление забытых данных будет невозможна!</font>
+|=|fail_change_secretq :=: Секретный вопрос не был сменен. Пожалуйста прочтите инструкцию как должен выглядеть правильно установленный секретный вопрос.
+|=|changed_secretq :=: Вы успешно изменили секретный вопрос. Пожалуйста запомните что вы изменили ваш секретный вопрос.
+|=|secretq1_info :=: Что необходимо знать чтобы создать секретный вопрос: <ul><li>Ответ должен состоят из 4 знаков или более</li><li>Ответ не должен содержать символы</li><li>Вы должны заполнить и поле с вопросом, и поле с ответом</li></ul>
+|=|secretq2_info :=: Что необходимо знать чтобы создать секретный вопрос: <ul><li>Ответ должен состоят из 4 знаков или более</li><li>Ответ не должен содержать символы</li><li>Вы должны заполнить и поле с вопросом, и поле с ответом</li></ul>
+|=|secretq2 :=: Секретный вопрос 2
+|=|secretq1 :=: Специальный вопрос 1
+|=|agreeement_detailschange :=: Вы согласны с тем что вы владелец этого аккаунта?
+|=|accountmanage_important :=: PНастройки пароля и e-mail'а.
+|=|accountmanange_intro :=: WДобро пожаловать в центр управления аккаунтом здесь вы можете отредактировать все настройки вашего аккаунта
+|=|START_NEW_PROJECT :=: НАЧИНАЕМ НОВЫЙ ПРОЕКТ. - эт только шутка
+
+                  Руссификация отредактирована и дополнена NotDead'ом
+				            все вопросы и исправления на
+							    nikindahouse@hotmail.com

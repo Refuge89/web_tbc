@@ -1,0 +1,23 @@
+#mtwtcTooltip td, #mtwtcTooltip th { background: url(images/tooltip.gif) }
+
+#mtwtcTabs div { background-image: url(images/tab.gif) }
+
+.mtwtcTile      { background: url(images/tile.gif) }
+.mtwtcBubble    { background: url(images/bubble.gif) }
+.mtwtcHighlight { background: url(images/icon_hilite_medium.gif) }
+
+.mtwtcArrowDown  td { background: url(images/arrows/down.gif) }
+.mtwtcArrowDown2 td { background: url(images/arrows/down2.gif) }
+
+.mtwtcArrowLeftDown  td { background: url(images/arrows/leftdown.gif) }
+.mtwtcArrowLeftDown  th { background: url(images/arrows/down.gif) }
+.mtwtcArrowLeftDown2 td { background: url(images/arrows/leftdown2.gif) }
+.mtwtcArrowLeftDown2 th { background: url(images/arrows/down2.gif) }
+
+.mtwtcArrowRightDown  td { background: url(images/arrows/rightdown.gif) }
+.mtwtcArrowRightDown  th { background: url(images/arrows/down.gif) }
+.mtwtcArrowRightDown2 td { background: url(images/arrows/rightdown2.gif) }
+.mtwtcArrowRightDown2 th { background: url(images/arrows/down2.gif) }
+
+.mtwtcArrowRight  td { background: url(images/arrows/right.gif) }
+.mtwtcArrowRight2 td { background: url(images/arrows/right2.gif) }

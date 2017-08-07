@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Anmeldung</title>
+<!-- do not edit here -->
+<!-- var et-v12a; a > 0-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="grey_tpl/darstellung.css" type="text/css">
+<script language="JavaScript">
+		function sendeAbAnOnline()
+	{
+		document.user.action="online.php";
+		document.user.method="post";
+		document.user.target="seite";
+		document.user.submit();
+
+		document.user.action="reloader.php";
+		document.user.method="post";
+		document.user.target="reloader";
+		document.user.submit();
+
+		document.user.action="schreiben.php";
+		document.user.method="post";
+		document.user.target="unten";
+		document.user.submit();
+	}
+</script>
+</head>
+
+<body background="grey_tpl/pics/back.png" topmargin="0" marginheight="0" marginwidth="0">
+<!-- {body} -->
+
+<form name="user" onSubmit="sendeAbAnOnline()">
+<input name="neu" type="hidden" value="ja">
+<!-- {name} -->
+</form>
+
+<form action="anmeldung.php" method="post">
+
+<div style="position:absolute; left:0px; top:0px; ">
+<table border="0" cellpadding="0" cellspacing="0" width="410">
+  <tr>
+   <td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+   <td width="35"><img src="grey_tpl/pics/grey_01.png" alt="" width="35" height="34" border="0"></td>
+   <td width="100%" background="grey_tpl/pics/grey_02.png"><img src="grey_tpl/pics/grey_02.png" width="25" height="34" border="0" alt=""></td>
+   <td width="35"><img src="grey_tpl/pics/grey_03.png" width="34" height="34" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td background="grey_tpl/pics/grey_04.png" width="35"><img src="grey_tpl/pics/grey_04.png" width="35" height="20" border="0" alt=""></td>
+   <td width="100%" background="grey_tpl/pics/grey.png">
+ <div style="border:0px solid #d1d1d1; padding: 0px;">
+<script language=javascript>
+function sendTo(nickName) {
+
+	document.forms[1].username.value = "Zuerst Namen eingeben! ;-)";
+	document.forms[1].username.focus();
+}
+</script>
+
+
+<span class="klein"><!-- {warnung} --></span>
+
+<input name="username" type="text" value="Your name?" maxlength="20" size="24" class="input" onFocus="document.forms[1].username.value = ''">&nbsp;
+<b><a href="#" onClick="document.forms[1].submit();">Go!</a></b>
+</div>
+</td>
+   <td background="grey_tpl/pics/grey_06.png" width="19"><img src="grey_tpl/pics/grey_06.png" width="34" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td width="35"><img src="grey_tpl/pics/grey_07.png" width="35" height="23" border="0" alt=""></td>
+   <td width="100%" background="grey_tpl/pics/grey_08.png"><img src="grey_tpl/pics/grey_08.png" width="25" height="23" border="0" alt=""></td>
+   <td width="34"><img src="grey_tpl/pics/grey_09.png" width="34" height="23" border="0" alt=""></td>
+  </tr>
+</table>
+	</td>
+  </tr>
+</table>
+</div>
+</form>
+</body>
+</html>

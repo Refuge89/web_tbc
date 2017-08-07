@@ -1,0 +1,20 @@
+body, td, th, div, span, p, form, input, select, textarea {
+	font: 9pt arial, verdana,helvetica;
+}
+h1 {
+	font: 14pt Franklin Gothic, Arial, sans-serif;
+}
+a {
+	color: #0000ee;
+}
+a:hover {
+	color: #ee0000;
+}
+a.nolink {
+	color: #000000;
+	text-decoration: none;
+}
+a.nolink:hover {
+	color: #000000;
+	text-decoration: underline;
+}

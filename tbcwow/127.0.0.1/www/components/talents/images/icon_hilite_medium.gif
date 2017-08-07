@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Wowhead</title>
+
+<link rel="stylesheet" type="text/css" href="common/shared2.css"/><!--[if IE]>
+<link rel="stylesheet" type="text/css" href="common/sharedie.css"/><![endif]--><!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="common/sharedie6.css"/><![endif]-->
+
+<script>var _, isIE = 0, isIE6 = 0</script><!--[if lte IE 6]>
+<script>isIE6 = 1</script><![endif]--><!--[if IE]>
+<script>isIE = 1</script><![endif]-->
+<script src="common/common.js"></script>
+<script src="common/locale_enus.js"></script>
+<script src="common/shared2.js"></script>
+
+<link title="Wowhead" rel="search" type="application/opensearchdescription+xml" href="http://www.wowhead.com/download/searchplugins/ie7/wowhead.xml">
+
+</head>
+<body>
+
+<script>
+g_Init(0);
+</script>
+
+<div class="toplinks"><a href="?account=signin">Sign in</a></div>
+
+<center>
+<br><br><img src="/images/logo_beta.gif" width="261" height="119" vspace="32">
+
+<table cellspacing="5" cellpadding="0" border="0">
+<tr><td align="center" colspan="2"><table cellspacing="0" cellpadding="0" border="0"><tr><td id="homemenu"></td><td class="morelinks"><a href="?more">more &#187;</a></td></tr></table></td></tr>
+<form name="search" method="get">
+<tr><td><input type="text" name="search" size="38"></td><td><input type="submit" value="Search"></td></tr>
+</form>
+</table>
+
+<script>
+document.forms['search'].elements[0].focus();
+g_AddBaseMenu('homemenu');
+</script>
+
+<br><br><br><br>
+
+<div class="homelinks">Contribute to the site by gathering data as you play the game!&nbsp;&nbsp;&nbsp;<a href="?client">Learn more</a></div><br>
+
+</center>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=1732565;
+var sc_invisible=1;
+var sc_partition=16;
+var sc_security="77e7c1df";
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c17.statcounter.com/counter.php?sc_project=1732565&amp;java=0&amp;security=77e7c1df&amp;invisible=1" alt="stats count" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<div class="footer"><span style="color: white; line-height: 1.5em">Send feedback and suggestions to <a href="mailto:beta@wowhead.com">beta@wowhead.com</a></span><br><br>&copy; 2006 Wowhead</div>
+
+</body>
+</html>

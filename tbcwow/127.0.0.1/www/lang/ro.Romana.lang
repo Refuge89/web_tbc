@@ -1,0 +1,474 @@
+|=|ErrorFilename :=: Image with that filename already exist. Please rename your file!
+|=|Filesizes :=: The size of a file exceeds 200 kb and should be in expansion .jpg
+|=|Filesizew :=: The size of a file exceeds 4 mb
+|=|Filetype :=: Not correct type of a file
+|=|Uploaderror :=: Upload file error
+|=|Totalingallery :=: Total images in galleries
+|=|Comment :=: Comment :
+|=|Author :=: Author :
+|=|File :=: File :
+|=|Date :=: Date :
+|=|Addimage :=: Add image
+|=|UWallp :=: Upload Wallpaper
+|=|UScreen :=: Upload Screenshot
+|=|wallp :=: Wallpapers
+|=|screen :=: Screenshots
+|=|GallWalp :=: Wallpapers gallery
+|=|GallScreen :=: Screenshots gallery
+|=|charcreate_invalidname :=: Error, Name unvalid (You have to pick a name for your character). Try again. <br />Redicting.. Please wait.
+|=|charcreate_nameinuse :=: Error, Name unvalid (Name already in use). Try again. <br />Redirecting.. Please wait.
+|=|charcreate_loggedin :=: Error, your account is already logged in. Please log out before using this future.<br />Redicting.. Please wait.
+|=|charcreate_charcreated :=: <h1>Congratulations</h1>, your character was created. You can now log in and play on it. Enjoy.<br />Redirecting...</td></tr></table>
+|=|charcreate_nameissymbols :=: The name consists of characters that is not allowed.<br />Redicting...
+|=|charcreate_underconstruction :=: This Class and race is currently beeing worked on, expect it to be up as soon as possible<br />Redicting...
+|=|charcreate_tomanychars :=: You have to many characters on your account, please log in and delete a character to be able to create another one at the account management.
+|=|charcreate_cannotcreatemorechars :=: You can not create anymore characters!
+|=|module_ah :=: Auction House
+|=|ah_itemclass :=: Type
+|=|ah_itemname :=: Item
+|=|ah_quantity :=: Qty.
+|=|ah_seller :=: Seller
+|=|ah_time :=: Time
+|=|ah_buyer :=: Buyer
+|=|ah_currentbid :=: Current Bid
+|=|ah_buyout :=: Buyout Price
+|=|ah_auctionhouse :=: Licitatii
+|=|ah_reset :=: (reset)
+|=|ah_hours :=: h
+|=|ah_minutes :=: m
+|=|ah_seconds :=: s
+|=|ah_expired :=: Expired
+|=|ah_sortbyquality :=: (Sortare dupa calitate)
+|=|reset_succ_secretq :=: Tocmai vati resetat intrebarea secreta. Va rog retineti ca e recomandat sa aveti o intrebare secreta la contul d-voastra.
+|=|not_require_loggedin :=: Trebuie sa dati logout sa folositi aceasta optiune.
+|=|require_loggedin :=: Trebuie sa fiti logat sa folositi aceasta optiune.
+|=|intro_account_restore :=: Vati uitat parola!? Cand am spus "Pastrati-o secreta, tineti-o bine" Nu am dorit sa ajungem la problema asta. Pentru viitor, Nu e indicat sa va pierdeti parola. Nu va faceti griji. Osa incercam sa o recuperam. Introduceti numele contului d-vostra in casuta de mai jos. Daca vati uitat si numele la cont, Contactatine pe forum sau un mesaj privat. Notati ca trebuie sa stiti raspunsul la doua intrebari secrete.
+|=|restore_pass_ok :=: Optiunile d-voastra au fost schimbate va rugam verificati noua parola. E recomandat sa va schimbati parola rapid!
+|=|fail_restore_pass :=: Optiunile pentru a recapata parola au fost incorecte.
+|=|have_secretq :=: <font color='green'>Intrebarile pentru a recupera parola au fost setate!</font>
+|=|not_have_secretq :=: <font color='red'>Nu aveti intrebari secrete, E recomandat sa le setati sa puteti recupera contul!</font>
+|=|fail_change_secretq :=: Intrebarea secreta nu sa schimbat. Va rog cititi informatiile despre cum se seteaza intrebarile secrete.
+|=|changed_secretq :=: Intrebarea secreta a fost schimbata cu succes. Please remember them in-case you loose your password.
+|=|secretq1_info :=: Necesar pentru a adauga o intrebare secreta: <ul><li>Raspunsul trebuie sa contina cel putin 4 caractere</li><li>Raspunsul nu trebuie sa contina simboluri</li><li>Trebuie sa completati amandoua raspunsurile</li></ul>
+|=|secretq2_info :=: Necesar pentru a adauga o intrebare secreta: <ul><li>Raspunsul trebuie sa contina cel putin 4 caractere</li><li>Raspunsul nu trebuie sa contina simboluri</li><li>Trebuie sa completati amandoua raspunsurile</li></ul>|=|secretq2 :=: Intrebarea secreta 2
+|=|secretq1 :=: Intrebarea secreta  1
+|=|agreeement_detailschange :=: Sunteti deacord ca acest cont va apartine?.
+|=|accountmanage_important :=: Setari pentru E-mail si parola.
+|=|accountmanange_intro :=: Bine ati venit la panoul administratorului aici puteti modifica toate setarile.
+|=|START_NEW_PROJECT :=: PORNITI UN NOU PROIECT. Acesta este un test.
+|=|yes :=: Da
+|=|no :=: Nu
+|=|mainpage :=: Prima Pagina
+|=|news :=: Stiri
+|=|news_archive :=: Arhiva stiri
+|=|last_news :=: Ultimele stiri
+|=|account_create :=: Creaza cont
+|=|account_activate :=: Activeaza Cont
+|=|account :=: Cont
+|=|account_manage :=: Contul Meu
+|=|userlist :=: Lista Useri
+|=|realm_status :=: Status Realm
+|=|retrieve_pass :=: Recuperare Parola
+|=|contact :=: Contacteaza-ne
+|=|honor :=: Onoare
+|=|map :=: Harta
+|=|players_online :=: Jucatori online
+|=|bugs :=: Bug tracker
+|=|files :=: Fisiere
+|=|bugtracker :=: Anuntare bug-uri
+|=|static_docs :=: Documente Statice
+|=|forums :=: Forum
+|=|forums_support :=: Suport forum
+|=|gmlist :=: Suport in joc
+|=|activation :=: Activare
+|=|forbiden :=: Interzis
+|=|admin_panel :=: Panoul Administratorului
+|=|dochange :=: Schimba
+|=|dodelete :=: Sterge
+|=|doedit :=: Editeaza
+|=|doreset :=: Reseteaza
+|=|doupdate :=: Actualizeaza
+|=|docreate :=: Creaza
+|=|youhavenorights :=: Nu ai drepturi sa vezi acasta pagina
+|=|pagegenerated :=:  Pagina generata in
+|=|forgetpass :=: Ai uitat parola ?
+|=|register :=: Inregistreaza-te
+|=|login :=: Logheaza-te
+|=|logout :=: Iesire
+|=|profile :=: Profil
+|=|enter_as :=: Logat cu userul  
+|=|newpms :=: Mesaje Noi
+|=|username :=: Numele utlizatorului
+|=|pass :=: Parola
+|=|email :=: Email
+|=|select_name :=: Selecteaza nume
+|=|up :=: Sus
+|=|down :=: Jos
+|=|author :=: Autor
+|=|type :=: Tip
+|=|title :=: Titlul
+|=|text :=: Text
+|=|add :=: Adauga
+|=|back :=: Inapoi
+|=|time :=: Timp
+|=|posted :=: Postat
+|=|close :=: Inchis
+|=|open :=: Deschis
+|=|edit :=: Editat
+|=|delete :=: Sters
+|=|format :=: Formatat
+|=|size :=: Marime
+|=|download :=: Descarca
+|=|upload :=: Incarca
+|=|file :=: Fisier
+|=|characters :=: Caractere
+|=|items :=: Obiecte
+|=|editor_bold :=: Ingrosat
+|=|editor_italic :=: Oblic
+|=|editor_underline :=: Subliniat
+|=|editor_strikethrough :=: Strikethrough
+|=|editor_pagebreak :=: Pagebreak
+|=|editor_image :=: Imagine
+|=|editor_link :=: Link
+|=|editor_email :=: Email
+|=|editor_fontcolor :=: Culoare Font
+|=|editor_code :=: Cod
+|=|editor_quote :=: Citat
+|=|editor_jusleft :=: Justifica Stanga
+|=|editor_juscenter :=: Justifica Centru
+|=|editor_jusright :=: Justifica Dreapta
+|=|editor_preview :=: Previzualizare
+|=|editor_clear :=: Clear
+|=|editor_backtoedit :=: Inapoi la editat
+|=|editor_send :=: Trimite
+|=|uploaddblclk :=: Dublu click pentru inserare
+|=|site_config :=: Setari site
+|=|realms_manage :=: Realms
+|=|components_manage :=: Componente
+|=|users_manage :=: Membrii
+|=|regkeys_manage :=: Reg keys
+|=|forums_manage :=: Forum
+|=|langs_manage :=: Limbi
+|=|news_manage :=: Editare Stiri
+|=|commands_manage :=: Editare comenzi (in joc)
+|=|chat_manage :=: Configurare Chat
+|=|categories :=: Categorii
+|=|order :=: Comanda
+|=|recount :=: Relatare topic/post
+|=|hide :=: Ascunde
+|=|show :=: Arata
+|=|l_name :=: Nume
+|=|l_desc :=: Desc
+|=|donewforum :=: Creaza un forum nou
+|=|donewcat :=: Creaza o categorie noua
+|=|l_newkeys :=: Introdu coduri (1-300) 
+|=|l_delkey :=: Sterge cod
+|=|l_delkey_id :=: Dupa Id
+|=|l_delkey_name :=: Sau dupa cod
+|=|editing :=: Editeaza
+|=|sure_q :=: Esti sigur ?
+|=|change_pass_succ :=: Parola a fost schimbata cu succes.
+|=|doretrieve_pass :=: Recuperare Parola
+|=|retrieve_pass_succ :=: Parola a fost trimisa pe mail.
+|=|retrieve_pass_fail :=: Cont/User gresit.
+|=|email_retrieve_pass :=: Aceasta este parola ta: %s | Va rog sa nu o uitati pe viitor.
+|=|post_pages :=: Pagini
+|=|all :=: Tot
+|=|user_name :=: Numele utilizatorului
+|=|personal_message :=: Mesaje Private
+|=|pers_mess :=: PM
+|=|date_reg :=: Data Inregistrarii
+|=|viewedit_profile :=: Editare/Vizionare Profil
+|=|homepage :=: WWW
+|=|active_ban :=: Activ/Ban
+|=|max_accounts_per_ip :=: Maxim conturi pe IP (0-nelimitat)
+|=|posts_per_page :=: Posturi pe pagina (forum)
+|=|topics_per_page :=: Subiect pe pagina (forum)
+|=|users_per_page :=: Utilizatori pe pagina
+|=|posts_per_star1 :=: Posturi minime pentru rank 1
+|=|posts_per_star2 :=: Posturi minime pentru rank 2
+|=|posts_per_star3 :=: Posturi minime pentru rank 3
+|=|posts_per_star4 :=: Posturi minime pentru rank 4
+|=|posts_per_star5 :=: Posturi minime pentru rank 5
+|=|site_title :=: Titlul Site-ului
+|=|site_encoding :=: Codul Site-ului
+|=|site_cookie :=: Site Cookies name
+|=|site_email :=: Site email address ("from")
+|=|smtp_adress :=: Smtp server
+|=|smtp_username :=: Smtp server - Intrare
+|=|smtp_password :=: Smtp server - Parola
+|=|max_avatar_size :=: Rezolutia maxima  (WxH px)
+|=|max_avatar_file :=: Marimea maxima (bytes)
+|=|change_email :=: Schimba e-mail
+|=|change_pass :=: Schimba parola
+|=|change_template :=: Permite utilizatorilor sa schimbe template-ul   (1-Da/0-Nu)
+|=|req_reg_key :=: Necesita cod de activare (1-Da/0-Nu)
+|=|req_reg_act :=: Necesita activare cont prin mail (1-Da/0-nu)
+|=|req_reg_invite :=: Accepta invitatia sistemului/inv keys per acc (ca gmail) (0-dezactivat) | Necesita "Activarea contului" si "codul pentru activare" 
+|=|default_component :=: Componentele standard (frontpage)
+|=|avatar_path :=: Cale catre avatar
+|=|smiles_path :=: Cale catre mascarici
+|=|debuginfo :=: Arata mesajele cu reparatii(1-Da/0-Nu)
+|=|onlinelist_on :=: Schimba pe lista on-line (1-Da/0-Nu)
+|=|reg_key :=: Cod de activare
+|=|bad_reg_key :=: Nu ai scris codul bine.
+|=|reg_acclimit :=: Nu poti creea mai multe conturi pe acelasi IP
+|=|cpass :=: Confirmare parola
+|=|reg_checklogin :=: Introdu utilizatorul din %d la %d caractere (caractere latine si cifre doar)
+|=|reg_checkloginex :=: Acest cont exista deja.
+|=|reg_checkemail :=: Introduce o adresa de mail valida
+|=|reg_checkemailex :=: Aceasta adresa de Email este existenta deja
+|=|reg_checkpass :=: Introduce parola din %d la %d caractere
+|=|reg_checkcpass :=: Parola nu coincide
+|=|accediting :=: Administrare conturi
+|=|gmlevel :=: Nivel de acces
+|=|viewcharacter :=: Vizualizare caracter
+|=|warn_email :=: Fara un mail existent nu poti sa te inregistrezi. Se va trimite un mail cu codul de activare.
+|=|reg_succ :=: Inregistrare reusita.
+|=|ref_fail :=: Inregistrare Esuata.
+|=|act_succ :=: Activare reusita.
+|=|bad_act_key :=: Cod de activare gresit.
+|=|email_sent_act :=: Email pentru activare trimis
+|=|hideemail :=: Ascunde E-mail?
+|=|notselected :=: Selectat
+|=|hideprofile :=: Ascunde Profil?
+|=|gender :=: Sex
+|=|male :=: Masculin
+|=|female :=: Feminin
+|=|icq :=: ICQ
+|=|wherefrom :=: De la
+|=|avatar :=: Avatar
+|=|delavatar :=: Stergere?
+|=|maxavatarsize :=: Marimea maxima pt avatar
+|=|maxavatarres :=: Rezolutiza maxima pt avatar
+|=|uploadavatar :=: Incarca Avatar
+|=|signature :=: Semnatura
+|=|reset :=: Resetare
+|=|theme :=: Tema
+|=|change_mail :=: Schimbare e-mail reusit.
+|=|bad_mail :=: E-mail gresit.
+|=|change_pass_short :=: Schimba parola.
+|=|email_sent_keys :=: %d noi coduri de activare au fost trimise prin e-mail.
+|=|agree :=: Sunt de acord
+|=|disagree :=: Nu sunt de acord
+|=|rules_agreement :=: Reguli si intelegere
+|=|next :=: Urmatorul
+|=|inbox :=: Inbox
+|=|outbox :=: Outbox
+|=|mark :=: Selectare
+|=|post_all :=: Tot
+|=|post_none :=: Nimic
+|=|post_read :=: Citeste
+|=|post_for :=: Pentru
+|=|post_from :=: De la
+|=|post_reply :=: Raspunde
+|=|post_reply_to :=: Raspunde la 
+|=|post_subj :=: Subiect
+|=|post_view :=: Mesaje citite
+|=|list_users :=: Lista cu utilizatori
+|=|view_profile :=: Vizualizare profil
+|=|personal_messages :=: Mesaje Private
+|=|delete_marked :=: Sterge fisiere bifate
+|=|no_such_addr :=: Nu exista aceasta adresa
+|=|emailtext_inv_keys :=: Acesta este codul tau activare: %s Il poti folosii pentru a inregistra alti utilizatori
+|=|write :=: Scrie
+|=|messages :=: Mesaje
+|=|newmessages :=: Mesaje noi
+|=|newmessage :=: [Mesaj nou]
+|=|lastreplyin :=: Ultimul Raspuns in
+|=|from :=: De la
+|=|hidden :=:  [ascunde]
+|=|today_at :=: Astazi la 
+|=|yesterday_at :=: Ieri la  
+|=|l_theme1 :=: topics
+|=|l_theme2 :=: topics
+|=|l_theme3 :=: topics
+|=|l_theme4 :=: topic
+|=|l_post1 :=: post
+|=|l_post2 :=: posts
+|=|l_post3 :=: posts
+|=|replies :=: Raspunsuri
+|=|views :=: Vizualizari
+|=|lastpost :=: Ultimul raspuns
+|=|lastpostby :=: de la
+|=|subject :=: Subiect
+|=|newtopic :=: Topic Nou
+|=|markread :=: Marcat ca citit
+|=|sticky :=: Lipicios
+|=|closed :=: Inchis
+|=|quote :=: Citat
+|=|reply :=: Raspuns
+|=|smtgtosay :=:  Ai ceva de spus ?
+|=|dostick :=: Stick
+|=|dounstick :=: Unstick
+|=|doopen :=: Deschide
+|=|doclose :=: Inchide
+|=|newpost :=: Post Nou
+|=|edittopic :=: Topic editat
+|=|editpost :=: Post editat
+|=|l_subject :=: Numele topic-ului
+|=|server :=: Server
+|=|realms_status :=: Realms status
+|=|choose_realm :=: Alege Realm
+|=|choose_faction :=: Alege Factiunea
+|=|choose_realmfaction :=: Apasa aici pentru a selecta realm-ul si factiunea
+|=|standing :=: Standing
+|=|rank :=: Rang
+|=|name :=: Nume
+|=|charname :=: Numele caracterului 
+|=|guild :=: Clan
+|=|guildname :=: Numele Clanului
+|=|level :=: Nivel
+|=|level_short :=: Lvl
+|=|h_kills :=: killuri onorabile
+|=|dh_kills :=: killuri disonorabile
+|=|rating :=: Clasare
+|=|players_all :=: Toti jucatorii
+|=|lifetime_kills :=: Total killuri
+|=|location :=: Locatie
+|=|acc_create_rules :=: <p aling="left" class="header_1"> Rules: </p> <font color="red"><b>Jucatori interzisi:</b> </font><br><li> Trisarile si Hacking-ul<br><li> Abuzare de alti jucatori<br><li> Intreaba GM pentru obiecte (intrebari doar pentru quest-uri care nu merg)<br><font color="red"><b>Players should:</b> </font><br><li>  Be friendly<br><li>  Anuntare Buguri
+|=|realmstatus_desc :=: This page lists all available World of Warcraft Realms as well as the status of each.  A Realm can be listed as either <img src="./templates/offlike/images/uparrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(35, 67, 3);">Up</b> or <img src="./templates/offlike/images/downarrow2.gif" style="vertical-align: bottom;" height="19" width="18"> <b style="color: rgb(102, 13, 2);">Down</b>. Messages related to Realm status and scheduled maintenance will be posted in the <a href="index.php?n=forum">Realm Status Forum</a>. Let us apologize in advance if your Realm is listed as down. Chances are we're working diligently to bring it back online as quickly as possible.
+|=|inventory :=: Inventar
+|=|attachs_path :=: Cale catre directorul de atasare
+|=|max_attachs_size :=: Spatiu maxim de atasare pentru fiecare utilizator
+|=|allowed_attachs :=: Extensii permise pt atasare
+|=|max_file_size :=: Marimea maxima pentru fisier 
+|=|allowed_ext :=: Extensi permise
+|=|paste_to_message :=: Adauga in mesaj
+|=|download_times :=: Descarcat
+|=|commands :=: Comenzi
+|=|chars :=: Caractere
+|=|playermap :=: Playeri pe harta
+|=|online :=: Online
+|=|who :=: Cine
+|=|where :=: Unde
+|=|when :=: Cand
+|=|whoisonline :=: Cine este online
+|=|si_status :=: Realmstatus
+|=|si_ip :=: IP Server
+|=|si_type :=: Tipul
+|=|si_lang :=: Limba
+|=|si_pop :=: Populatie
+|=|si_acc :=: Conturi
+|=|si_chars :=: Caractere
+|=|si_on :=: Online
+|=|si_regrate :=: Rate-uri
+|=|si_regrate_health :=: Viata
+|=|si_regrate_mana :=: Mana
+|=|si_droprate :=: Rate-uri obiecte/bani
+|=|si_droprate_items :=: Obiecte
+|=|si_droprate_money :=: Bani
+|=|si_exprate :=: Rate-uri XP
+|=|si_exprate_kill :=: Kill
+|=|si_exprate_quest :=: Quest
+|=|si_exprate_explore :=: Explore
+|=|si_restrate :=: Punctele de odihna
+|=|si_restrate_city :=: Oras
+|=|si_restrate_ingame :=: In joc
+|=|si_restrate_wild :=: In pustietate
+|=|si_skillvalue :=: Valoare Skiluri
+|=|si_skillvalue_orange :=: Portocaliu
+|=|si_skillvalue_yellow :=: Galben
+|=|si_skillvalue_green :=: Verde
+|=|si_skillvalue_grey :=: Gri
+|=|quicklink1 :=: Creare cont
+|=|quicklink2 :=: Administrare cont
+|=|quicklink3 :=: Realm Status
+|=|quicklink4 :=: FAQ
+|=|quicklink6 :=: Schema talentelor
+|=|quicklink7 :=: Comenzi in joc
+|=|quicklink8 :=: Harta cu playeri
+|=|talent_index :=: Index-ul cu schema talentelor
+|=|talent_summary :=: Rezumat
+|=|talent_print :=: Versiune listabila
+|=|talent_import :=: Importat de la blizzard
+|=|chat :=: Chat
+|=|choose_lang :=: Alege o limba
+|=|context_menu :=: Meniu Context
+|=|teamspeak :=: Vorbire in echipa
+|=|news_add :=: Adauga stiri
+|=|ts_display :=: Vorbire in echipa pornit sau oprit (0=oprit, 1=pornit)
+|=|chat_display :=: Chat pornit sau oprit (0=oprit 1=pornit)
+|=|ts_ip :=: Adresa ip-ului de la Teamspeak
+|=|ts_port_udp :=: Portul UDP de la Teamspeak
+|=|chat_adminpass :=: Parola Administratorului pentru chat
+|=|banner_display :=: Banner on or off (0=arata, 1=ascunde)
+|=|site_register :=: Inregistrare pornita sau oprita (0=oprita, 1=pornita)
+|=|msn :=: MSN
+|=|Alliance :=: Alianta
+|=|Horde :=: Horda
+|=|race :=: Rasa
+|=|Human :=: Human
+|=|Dwarf :=: Dwarf
+|=|Nightelf :=: Night Elf
+|=|Gnome :=: Gnome
+|=|Orc :=: Orc
+|=|Tauren :=: Tauren
+|=|Troll :=: Troll
+|=|Undead :=: Undead
+|=|class :=: Class
+|=|Warrior :=: Warrior
+|=|Paladin :=: Paladin
+|=|Hunter :=: Hunter
+|=|Rogue :=: Rogue
+|=|Priest :=: Priest
+|=|Warlock :=: Warlock
+|=|Druid :=: Druid
+|=|Shaman :=: Shaman
+|=|Mage :=: Mage
+|=|Bloodelf :=: Blood elf
+|=|Dranei :=: Dranei
+|=|admin_forum :=: Forum
+|=|ar1 :=: Private
+|=|ar2 :=: Caporal
+|=|ar3 :=: Sergeant
+|=|ar4 :=: Master Sergeant
+|=|ar5 :=: Sergeant Major
+|=|ar6 :=: Knight
+|=|ar7 :=: Knight-Lieutenant
+|=|ar8 :=: Knight-Captain
+|=|ar9 :=: Knight-Champion
+|=|ar10 :=: Lieutenant-Commander
+|=|ar11 :=: Commander
+|=|ar12 :=: Marshal
+|=|ar13 :=: Field Marshal
+|=|ar14 :=: Grand Marshal
+|=|hr1 :=: Scout
+|=|hr2 :=: Grunt
+|=|hr3 :=: Sergeant
+|=|hr4 :=: Senior-Sergeant
+|=|hr5 :=: First Sergeant
+|=|hr6 :=: Stone Guard
+|=|hr7 :=: Blood Guard
+|=|hr8 :=: Legionnaire
+|=|hr9 :=: Centurion
+|=|hr10 :=: Champion
+|=|hr11 :=: Lieutenant General
+|=|hr12 :=: General
+|=|hr13 :=: Warlord
+|=|hr14 :=: High Warlord
+|=|gm_online :=: Gm online
+|=|faq :=: FAQ
+|=|lastcomment :=: Ultimul comentariu
+|=|isonline :=: Este online
+|=|areonline :=: Sunt online
+|=|statistic :=: Statistici
+|=|page :=: Pagina
+|=|newsubject :=: Subiect Nou
+|=|notreadsubject :=: Subiect necitit
+|=|readsubject :=: Subiect citit
+|=|nonewpost :=: Nu exista post nou 
+|=|postclose :=: Forum inchis
+|=|howtoplay :=: Cum se joaca
+|=|media :=: Media
+|=|screenshots :=: Screenshots
+|=|gallery :=: Arta
+|=|downloads :=: Descarcari
+|=|up_notallowed :=: Nu poti 
+|=|up_banned :=: Cauza : Ban
+|=|vote_success :=: Votat cu succes
+|=|vote_alreadyvoted :=: Ai votat deja!
+|=|vote_image :=: Voteaza pentru aceasta imagine
+|=|quicklinks :=: Link-uri rapide
+|=|useronhp :=: Utilizatori pe pagina principala
+|=|serverinfo :=: Info despre server

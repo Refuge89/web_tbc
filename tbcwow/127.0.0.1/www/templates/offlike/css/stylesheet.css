@@ -1,0 +1,142 @@
+@charset "utf-8";
+a {outline: none;}
+.clear {clear:both;}
+
+
+/* Fonts */
+h1 {font-family:Georgia, "Times New Roman", Times, serif; font-size:36px; font-weight:normal; color:#1e4378;}
+h2 {font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; font-weight:normal; color:#1e4378;}
+h3 {font-family:Georgia, "Times New Roman", Times, serif; font-size:20px; font-weight:normal; color:#1e4378; margin:0 0 14px;}
+h4 {font-family:Georgia, "Times New Roman", Times, serif; font-size:12px; font-weight:normal; color:#cf9250;}
+p {font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:14px; margin:1em 0;}
+p span { font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:14px; margin:1em 0; }
+
+
+/* Top Elements*/
+.breadcrumb {color: #ff6600; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:12px; position:absolute; left:83px; top:12px;}
+.breadcrumb-links {display:inline;}
+.article-header {min-height:80px; _height:80px; position:relative;}
+.article-title {padding-left:82px; padding-top:27px; width:610px;}
+.relatedlinks h2, .relatedlinks h4 {display:inline;}
+.avatar {width:62px; height:62px; background-position:top left; background-repeat:no-repeat; position:absolute; left:13px; top:6px;}
+
+q {display:block;}
+q:before, q:after {content: "";}
+
+.bg a {color: #ff6600; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none;}
+.bg a:link {color: #ff6600; text-decoration:none;}
+.bg a:visited {color: #ff6600; text-decoration:none;}
+.bg a:hover {color: #ff8400; text-decoration:underline;}
+.bg a:active {color: #ff6600; text-decoration:none;}
+.bg {background:url(../images/encyclopedia/bg-bg.jpg) top left;}
+.bgtop {background:url(../images/encyclopedia/bg-top.jpg) top left repeat-x; margin:0; padding:0;}
+.bgtopleft {background:url(../images/encyclopedia/bg-topleft.jpg) top left no-repeat; margin:0; padding:0;}
+.bgtopleft-mouseover {background:url(../images/encyclopedia/bg-topleft-mouseover.jpg) top left no-repeat; margin:0; padding:0;}
+.bgbot {background:url(../images/encyclopedia/bg-bot.jpg) bottom left repeat-x; margin:0; padding:0;}
+.bgbotleft {background:url(../images/encyclopedia/bg-botleft.jpg) bottom left no-repeat; margin:0; padding:30px 0 0 0;}
+
+
+.outerbox-top {background:url(../images/encyclopedia/title-top.jpg) top left repeat-x;}
+.outerbox-bot {background:url(../images/encyclopedia/title-bot.gif) bottom left repeat-x;}
+.outerbox-left {background:url(../images/encyclopedia/title-left.gif) top left repeat-y;}
+.outerbox-right {background:url(../images/encyclopedia/title-right.gif) top right repeat-y;}
+.outerbox-topleft {background:url(../images/encyclopedia/title-topleft.jpg) top left no-repeat;}
+.outerbox-botleft {background:url(../images/encyclopedia/title-botleft.gif) bottom left no-repeat;}
+.outerbox-topright {background:url(../images/encyclopedia/title-topright.jpg) top right no-repeat;}
+.outerbox-botright {background:url(../images/encyclopedia/title-botright.gif) bottom right no-repeat; position:relative;}
+
+
+.content {padding-bottom:1px;}
+.content .padding {padding:2px 20px 15px 20px;}
+.content-top {background:url(../images/encyclopedia/content-top.jpg) top left repeat-x;}
+.content-bot {background:url(../images/encyclopedia/content-bot.jpg) bottom left repeat-x;}
+.content-right {background:url(../images/encyclopedia/content-right.jpg) top right repeat-y;}
+.content-left {background:url(../images/encyclopedia/content-left.gif) top left repeat-y;}
+.content-topright {background:url(../images/encyclopedia/content-topright.jpg) top right no-repeat;}
+.content-topleft {background:url(../images/encyclopedia/content-topleft.gif) top left no-repeat;}
+.content-botright {background:url(../images/encyclopedia/content-botright.jpg) bottom right no-repeat;}
+.content-botleft {background:url(../images/encyclopedia/content-botleft.gif) bottom left no-repeat;}
+
+
+.content div.content-table {background:#919191;}
+.content table {font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:1em 0; border:2px solid #1e4378; border-collapse:collapse; display:block; background-color:#d3e3fb; position:relative; left:-3px; top:-3px;}
+.content th {background-color:#a6c7fa; font-size:14px; color:#1e4378;}
+.content td {border-top:1px solid #a6c7fa;}
+.content th, .content td {margin:0; padding:5px 10px; text-align:left; vertical-align:top;}
+
+
+/* Image Box */
+.image {position:relative; display:table; width:1px;}
+.image q {position:relative; background:url(../images/encyclopedia/imgbg-top.gif) top left repeat-x;}
+.image q q {background:url(../images/encyclopedia/imgbg-bot.gif) bottom left repeat-x;}
+.image q q q {background:url(../images/encyclopedia/imgbg-left.gif) top left repeat-y;}
+.image q q q q {background:url(../images/encyclopedia/imgbg-right.gif) top right repeat-y;}
+.image q q q q q {background:url(../images/encyclopedia/imgbg-topleft.gif) top left no-repeat;}
+.image q q q q q q {background:url(../images/encyclopedia/imgbg-topleft.gif) bottom right no-repeat;}
+.image q q q q q q q {background:url(../images/encyclopedia/imgbg-topright.gif) top right no-repeat;}
+.image q q q q q q q q {background:url(../images/encyclopedia/imgbg-topright.gif) bottom left no-repeat; padding:8px;}
+.image img {display:block;}
+.float-r {float:right; margin-left:20px; margin-bottom:10px;}
+.float-l {float:left; margin-right:20px; margin-left:5px; margin-bottom:10px;}
+.float-c {margin-left: auto; margin-right:auto;}
+.float-t {margin-top:18px;}
+.float-featured {float:left; margin-right:10px; margin-left:0px; margin-bottom:5px;}
+
+
+/* Menu Style */
+.menufloat {position:relative; z-index:9999999999999999999999999;}
+.encyclopedia-menu {position:absolute; width:230px; top:-26px; right:8px;}
+.encyclopedia-menu a {color: #3246fd; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;}
+.encyclopedia-menu a:link {color: #3246fd;}
+.encyclopedia-menu a:visited {color: #3246fd;}
+.encyclopedia-menu a:hover {color: #5969ff;}
+.encyclopedia-menu a:active {color: #3246fd;}
+.currentArticleMenuStyle {display:block;}
+.listEntry {background:url(../images/encyclopedia/menubg.jpg) top left repeat-x #fcf2d0; padding:10px; width:210px; _width:230px; margin:0; display:block; border:1px solid #000000; border-right-width:3px; border-bottom-width:3px; clear:both;}
+.listEntry * div {margin-left:7px; position:relative; }
+.menuContainerStyle {float:right; width:230px; background:url(../images/encyclopedia/openmenu.gif) top right no-repeat;}
+.minimizerStyle {float:right; padding:0px; height:26px; display:block;}
+.minimizerTextStyle {display:block; margin:0px; padding:0px; width:131px; height:100%; overflow:hidden;}
+.menuEntryDotStyle {margin:0; line-height:2px; padding:0px; font-size:1px; cursor:pointer; display:block; position:absolute; left:-8px; top:7px; width:4px; height:4px; background:url(../images/encyclopedia/menubullet.gif); }
+.plusSign {margin:0; line-height:2px; padding:0px; font-size:1px; cursor:pointer; display:block; position:absolute; left:-10px; top:4px; width:8px; height:8px; background:url(../images/encyclopedia/plus.gif); }
+@media all and (min-width: 0px) {
+.listEntry { width:230px; }
+}
+
+
+/* Related Jump Alert */
+.alert {background:url(../images/encyclopedia/alert.gif) left 4px no-repeat; margin-top:1em; margin-bottom:2em; padding:0px 0px 0px 25px; line-height:10px;}
+.alert a, .alert a:link, .alert a:visited, .alert a:hover, .alert a:active {font-size:10px;}
+.alert span {display:block; margin:0; padding:0; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold;}
+
+
+/* Related Articles */
+.relatedlinks {padding:0 20px 20px 20px; margin:0; clear:both;}
+.backto {margin:2px 0 0 0; color: #ff6600; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+.articleListContainer {width:660px; margin:5px 0 0 0; padding:0;}
+.articleListContainer li {width:207px; float:left; margin:0 0 5px 0; padding:0 0 0 13px; list-style:none; background:url(../images/encyclopedia/bullet.gif) 0 6px no-repeat;}
+
+/* Main Page */
+.theofficial {color:#1e4378; font-family:'Trebuchet MS'; font-weight:bold; left:82px;}
+
+.mainpagecontainer {border-top:1px dashed #dbb378; border-bottom:1px dashed #dbb378; margin:5px 20px; padding:20px 0; /*background:url(../images/encyclopedia/title-left.gif) 275px repeat-y;*/}
+
+.maincategories {float:left; width:280px; margin:0 0 0 5px; padding:0;}
+.maincategories ul {margin:0; padding:0 0 0 20px;}
+.maincategories li {list-style:none; background:url(../images/encyclopedia/bullet.gif) 0 50% no-repeat; padding:0 0 0 13px; margin:10px 0px; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:14px;}
+.maincategories ul li a {color: #ff6600; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal;}
+.maincategories a:link {color: #ff6600; font-weight:normal;}
+.maincategories a:visited {color: #ff6600; font-weight:normal;}
+.maincategories a:hover {color: #ff8400; font-weight:normal;}
+.maincategories a:active {color: #ff6600; font-weight:normal;}
+
+.featuredarticle {float:right; width:365px; margin:0 5px 0 0; position:relative;}
+.featuredarticle p {font-size:12px; margin:0;}
+/*.featuredtext {width:246px; _width:260px; position:absolute; bottom:12px; right:12px; padding:7px; background:url(../images/encyclopedia/featured/featured_textbg.png);}*/
+
+.latest-updates {padding:0 20px 1.5em; margin:0; color:#ff6600; font-size:18px;}
+.latest-updates a {font-size:14px;}
+.latest-updates ul {margin:0; float:left; padding:0; list-style:none;}
+.latest-updates ul li {float:left; margin:0; padding:0;}
+
+.about {padding:0 20px 1em; margin:0; clear:both;}

@@ -1,0 +1,113 @@
+#wow-logo { top:-3px; left:-24px; }
+
+/*newhp_specific*/
+#main-bottom { margin-bottom: -17px; }
+#ironFrame { margin-top: -17px; }
+#copyright span.esrb { left: -125px !important; }
+#copyright span.rating { left: -255px !important; }
+#copyright span.esrb-caution { right: 100px !important; }
+#copyright span.nvidia { right: -5px !important; }
+#copyright span.textlinks { padding-left: 0px; }
+
+.ieTableMargin { padding-right: 15px; }
+
+/*newhp_layout*/
+#contentPadding { margin-left: 15px; margin-right: 20px; }
+div.top-nav-container { z-index: 10; }
+div.top-nav { right: 12px; }
+#imageSwitcher { height: 202px; }
+#flashcontainer { 
+top: -121px; 
+z-index: 9999;
+}
+#pageContent{ width: 985px; }
+
+/*newhp*/
+.phatLootBox-bottom div { padding: 1px 5px 0 0; }
+img.left { margin: 0 0 0 -3px; }
+#container-pvpRankings div.realmselect { height: 21px; padding: 0; }
+div#elf-ear { right: -18px; }
+ul.bullet-list li { padding-left: 2px; }
+div.community-watch { width: 430px; }
+.ieTableMargin { padding-right: 15px; }
+.leftMenu-plusLink, .leftMenu-minusLink { right: 8px; }
+.menuEntry-rightBorder { right: 0px; }
+
+#leftMenuContainer{ position: absolute; left: 4px; }
+
+/*theme-leftcharacter*/
+#ne-top-left { position: absolute; top: -47px; left: -310px; }
+#ne-center { background: url('../images/ne-center.jpg') no-repeat; position: absolute; top: -47px; left: -46px; height: 578px; width: 64px; }
+#ne-bottom-left { background: url('../images/ne-bottom-left.jpg') no-repeat; position: absolute; top: 299px; left: -172px; height: 126px; width: 144px; }
+#ne-nav-bg { background: url('../images/ne-nav-bg.jpg') no-repeat; position: absolute; top: 3px; left: 15px; height: 546px; width: 146px; }
+/*theme-leftcharacter*/
+
+#navWrapper, #mainWrapper { float: left; }
+#hpWrapper {  }
+#ironFrame { top: -15px; }
+#main, #nav { float: left; }
+#nav { z-index: 500; }
+#main {	width: auto; z-index: 200; }
+table#generalNews p, #threeCol-teasers, #hp-wrapper, #main-content-wrapper, #main-content, .plainBox-cnt, .community-cnt, #container-service, .gameinfo-entry, ul.mainNav li a, #hpWrapper { height: 1%;  }
+.parchment hr { margin: 0; }
+select#support { bottom: 9px; }
+.plainBox-bot { font-size: 1px; }
+.underdev-wrapper { padding: 0; margin: 0; font-size: 1px; bottom: -1px; left: 0; }
+.underdev-links a { position: relative; }
+.underdev-top { margin-top: 0; }
+.underdev-bottom { font-size: 1px; margin-bottom: 0; }
+.button-readmore { bottom: 7px; }
+.blizz-logo  { bottom: 22px; }
+ul.mainNav li a { background: none; }
+ul.mainNav li a:hover { color: #fff; background-color: #344961; }
+ul.menulist1 li { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/back.png'); }
+ul.mainNav { }
+ul.mainNav ul {	padding: 0;  margin-top: -1px; }
+ul.mainNav ul.menulist1 li { float: left; height: 1%; }
+.container-misc { height: 1%; }
+
+/*png stuff*/
+.leftMenu-cont-top { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src='../images/leftMenu-cont-top.png'); }
+.leftMenu-cont-mid { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/leftMenu-back.png'); }
+.leftMenu-cont-bot { background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src='../images/leftMenu-cont-bot.png'); }
+#community-spotlight .plainBox-cnt-bot p, #community-forumwatch .plainBox-cnt-bot p { height: 1%; font-size: 1px; }
+.underdev { left: -11px; }
+.underdev-links { background: none; }
+.underdev-top { background: none; font-size: 1px; }
+.underdev-bottom { background: none; font-size: 1px; }
+.leftMenu-cont { /*container for the menu structure*/ background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/back.png'); }
+.marginal-infoBox { width: 213px; }
+.marginal-infoBox-bottom { width: 213px; }
+#container-quicklinks ul { height: 1%; }
+#container-quicklinks ul li { width: 100%; float: left; }
+#container-quicklinks ul li a { display: inline-block; /*fixes bug with not clickable link backgrounds*/ padding-bottom: 8px; }
+span#button-contestWinners { bottom: -1px; } 
+
+
+/* news module */
+/*_______________________________________________________________*/
+
+	.news-collapse .news-border-right, .news-collapsealt .news-border-right { right: 8px; }
+
+/*My fixes (lordsc)*/
+#form_tool {
+    display: block;
+    clear: both;
+    margin-top: -14px;
+    position:absolute;
+}
+#input_block, #preview_block {
+    margin-top: 40px;
+}
+.leftMenu-cont-top, .leftMenu-cont-bot {
+    height: 0px !important;
+    display: none;
+}
+.leftMenu-cont-mid {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: #000;
+}
+.searchBoxForm {
+    font-size:0.8em;
+}

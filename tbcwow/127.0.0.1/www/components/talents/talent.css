@@ -1,0 +1,85 @@
+#mtwtc { visibility: hidden }
+#mtwtcTabs div
+{
+	overflow: hidden; background: url(images/tab.png) no-repeat; width: 101px; cursor: default;
+	text-align: center;  display: block; padding: 5px 0 11px 0;
+	font-family: Verdana; font-size: 11px; font-weight: normal; line-height: 12px; color: #FFD100;
+}
+#mtwtcTabs .selected { background-position: -117px top; color: white; font-weight: bold; padding: 7px 0 9px 0 }
+
+
+#mtwtcStats { display: none; font-weight: normal }
+#mtwtcStats a { color: #FFD100; font-family: Verdana; font-weight: normal; text-decoration: none; border-bottom: 1px solid #FFD100 }
+#mtwtcStats a:hover { color: white; border-bottom: 1px solid white }
+#mtwtcStats td   { color: #FFD100; font-family: Verdana; font-size: 12px; padding: 2px 2px 1px 2px }
+#mtwtcStats span { color : white }
+
+#mtwtcContainer { background: black; border: 2px solid #504C48 }
+#mtwtcTrees { background: black url(templates/offlike/images/loading.gif) no-repeat }
+.mtwtcTree  { width: 300px; height: 456px }
+#mtwtcTrees { width: 300px; height: 456px }
+.mtwtcTree th { width: 22px; height: 4px }
+.mtwtcTree td { width: 64px; height: 64px; text-align: left; vertical-align: top }
+.mtwtcTree div { position: absolute }
+.mtwtcTile   { width:45px; height: 45px; left:  9px; top: 9px; background: url(images/tile.png) }
+.mtwtcBorder { width:42px; height: 42px; left: 11px; top: 11px; background: url(images/border.gif) }
+.mtwtcIcon   { width:36px; height: 36px; left: 14px; top: 14px; background-color: #232323; position: relative }
+.mtwtcBubble
+{
+	width: 24px; height: 21px; left: 40px; top: 39px;
+	background: url(images/bubble.png) no-repeat;
+	cursor: default; visibility: hidden; padding: 4px 0 0 0;
+	font-family: Verdana; font-size: 12px; text-align: center;
+}
+.mtwtcHighlight
+{
+	width: 38px; height: 38px; left: 13px; top: 13px;
+	background: url(images/icon_hilite_medium.png);
+}
+
+#mtwtcTooltip { position: absolute; left: -1000px; top: -1000px; width: 300px; z-index: 20}
+#mtwtcTooltip td, #mtwtcTooltip th { background: url(images/tooltip.png) }
+#mtwtcTooltip td td { background: none; padding: 0 }
+#mtwtcTooltip th { padding: 3px; height: 8px }
+#mtwtcTooltip td { padding: 8px 4px 1px 9px; cursor: default }
+#mtwtcTooltip td div
+{
+	font-family: Verdana; font-size: 12px;
+	line-height: 16px; color: white; letter-spacing: 0.01em; 
+}
+#mtwtcTooltip b    { font-size: 14px; color: white; line-height: 18px; font-weight: normal }
+#mtwtcTooltip u    { font-size: 14px; color: #808080; text-decoration: none }
+#mtwtcTooltip i    { font-size: 12px; color: #0EFD02; font-style: normal }
+#mtwtcTooltip em   { font-size: 12px; color: #FF0000; font-style: normal }
+#mtwtcTooltip var  { font-size: 12px; color: #FFD200; font-style: normal; line-height: 15px }
+#mtwtcTooltip span { float: right }
+
+#mtwtcMenu1 { position: relative; left: 79px; top: 135px; visibility: hidden }
+#mtwtcMenu2 { position: relative; overflow:hidden; width: 141px }
+#mtwtcMenu3 { position: absolute; width: 141px; background: #2E2D2B url(images/classes2.jpg) 0 26px no-repeat }
+#mtwtcMenu4 { position: absolute; left: 3px; top: 3px; width: 141px; height: 20px; background: url(images/dropdown.gif) -20px 0 no-repeat }
+
+#mtwtcMenu3 td { line-height: 20px; border-top: 1px solid #5D5D5D; border-bottom: 1px solid #1E1D1C }
+#mtwtcMenu3 td div { height: 20px; overflow: hidden; font-family: Verdana; font-size: 13px; color: #FFD100; }
+#mtwtcMenu3 a { color: #FFD100; font-family: Verdana; font-size: 13px; font-weight: normal; text-decoration: none; padding-left: 23px; display: block; width: 100%; border: 0 }
+#mtwtcMenu3 a.selected { font-weight: bold; color: white }
+#mtwtcMenu3 a:hover { color: white; border: 0}
+
+.mtwtcArrow td    { padding: 6px; height: 15px }
+.mtwtcArrow table { width: 100%; height: 100% }
+
+.mtwtcArrowDown  td { background: url(images/arrows/down.png) }
+.mtwtcArrowDown2 td { background: url(images/arrows/down2.png) }
+
+.mtwtcArrowLeftDown  td { background: url(images/arrows/leftdown.png) }
+.mtwtcArrowLeftDown  th { background: url(images/arrows/down.png) }
+.mtwtcArrowLeftDown2 td { background: url(images/arrows/leftdown2.png) }
+.mtwtcArrowLeftDown2 th { background: url(images/arrows/down2.png) }
+
+.mtwtcArrowRightDown  td { background: url(images/arrows/rightdown.png) }
+.mtwtcArrowRightDown  th { background: url(images/arrows/down.png) }
+.mtwtcArrowRightDown2 td { background: url(images/arrows/rightdown2.png) }
+.mtwtcArrowRightDown2 th { background: url(images/arrows/down2.png) }
+
+.mtwtcArrowRight  td { background: url(images/arrows/right.png) }
+.mtwtcArrowRight2 td { background: url(images/arrows/right2.png) }
